@@ -60,7 +60,7 @@ const AllProducts = () => {
 
   return (
     <>
-    <ButtonContainer>  <Button onClick={navigateToHome} sx={{ mb: 2 }}>
+    <ButtonContainer>  <Button onClick={navigateToHome} >
         <ArrowBackOutlinedIcon style={{color:'black'}}/>
         <Typography style={{ marginLeft: "10px",color:'black' }}>Back to home</Typography>
       </Button></ButtonContainer>
@@ -100,7 +100,8 @@ position: "fixed",
 color:'black',
 zIndex: 1000,
 borderRadius:'32px',
-
+background:'white',
+marginTop:'10px',
 })
 
 export default AllProducts;

@@ -1,10 +1,10 @@
 
 import os
 
-import environ
 from django.conf import settings
 from drf_spectacular.utils import OpenApiParameter, extend_schema
-from removebg import RemoveBg
+from rembg import remove
+import io
 from rest_framework import generics, status
 from rest_framework.parsers import MultiPartParser
 from rest_framework.response import Response
@@ -14,11 +14,7 @@ from couch_management.keras import predict_image_class
 from couch_management.models import Sofa
 from couch_management.serializers import SofaSerializer
 from couch_management.utils import (calculate_sofa_similarity,
-                                    get_dominant_color,
-                                    rgb_to_color_description)
-
-env = environ.Env()
-environ.Env.read_env()
+                                    get_dominant_color)
 
 
 class SofaListView(generics.ListAPIView):
@@ -67,20 +63,24 @@ class SofaFilterAPIView(APIView):
                     for chunk in image_file.chunks():
                         f.write(chunk)
 
-                predicted_class, confidence_score = predict_image_class(temp_image_path)
-
-                rmbg = RemoveBg(env("REMOVE_BG_API_KEY"), "error.log")
+                predicted_class, _ = predict_image_class(temp_image_path)
 
                 try:
-                    rmbg.remove_background_from_img_file(temp_image_path)
+                    with open(temp_image_path, 'rb') as input_file:
+                        input_data = input_file.read()
+
+                        output_data = remove(input_data)
+
+                    output_image = io.BytesIO(output_data)
                     bg_removed_path = f"{temp_image_path}_no_bg.png"
+                    output_image.seek(0)
+                    with open(bg_removed_path, 'wb') as f:
+                        f.write(output_data)
                 except Exception as e:
                     return Response({"error": "Background removal failed. Please check the API or payment status."}, status=402)
 
 
                 dominant_color = get_dominant_color(bg_removed_path)
-                dominant_color_description = rgb_to_color_description(dominant_color)
-                color_name = dominant_color_description.split(" (Hex: ")[0]
 
                 sofas = sofas.filter(features__class_name=predicted_class)
 
@@ -89,7 +89,6 @@ class SofaFilterAPIView(APIView):
                     similarity_percentage = calculate_sofa_similarity(
                         predicted_class,
                         dominant_color,
-                        color_name,
                         sofa
                     )
                     sofas_with_similarity.append((sofa, similarity_percentage))
@@ -119,3 +118,6 @@ class SofaFilterAPIView(APIView):
         finally:
             if os.path.exists(temp_image_path):
                 os.remove(temp_image_path)
+
+            if os.path.exists(bg_removed_path):
+                os.remove(bg_removed_path)

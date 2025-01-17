@@ -112,20 +112,16 @@ def calculate_color_similarity(rgb1, rgb2):
     return np.linalg.norm(rgb1_normalized - rgb2_normalized)
 
 
-def calculate_sofa_similarity(predicted_class, predicted_color_rgb, predicted_color_name, sofa):
+def calculate_sofa_similarity(predicted_class, predicted_color_rgb, sofa):
     class_name_weight = 0.4
-    color_name_weight = 0.3
-    color_similarity_weight = 0.3
+    color_similarity_weight = 0.6
 
     class_name_similarity = 1 if sofa.features['class_name'] == predicted_class else 0
 
-    color_name_similarity = 1 if sofa.features['color_name'].lower() == predicted_color_name.lower() else 0
-
     color_similarity = calculate_color_similarity(sofa.features['rgb_color'], predicted_color_rgb)
     color_similarity = max(0, 1 - color_similarity)
-
+    
     total_similarity = (class_name_similarity * class_name_weight) + \
-                       (color_name_similarity * color_name_weight) + \
                        (color_similarity * color_similarity_weight)
 
     similarity_percentage = total_similarity * 100
