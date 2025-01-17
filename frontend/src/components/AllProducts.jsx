@@ -9,8 +9,9 @@ import {
 } from "@mui/material";
 import ProductCard from "./ProductCard";
 import axios from "axios";
-import ArrowBackOutlinedIcon from '@mui/icons-material/ArrowBackOutlined';
+import ArrowBackOutlinedIcon from "@mui/icons-material/ArrowBackOutlined";
 import { useNavigate } from "react-router-dom";
+import { styled } from "@mui/system";
 
 const AllProducts = () => {
   const [sofas, setSofas] = useState([]);
@@ -22,10 +23,9 @@ const AllProducts = () => {
     fetchSofas();
   }, [page]);
 
-
-  const navigateToHome =()=>{
-    navigate("/")
-  }
+  const navigateToHome = () => {
+    navigate("/");
+  };
   const fetchSofas = async () => {
     if (loading) return;
     setLoading(true);
@@ -60,11 +60,11 @@ const AllProducts = () => {
 
   return (
     <>
-      <Button onClick={navigateToHome} sx={{ mb: 2 }}>
-    <ArrowBackOutlinedIcon />
-    <Typography style={{ marginLeft: "10px" }}>Back to home</Typography>
-  </Button>
-    <Container sx={{ py: 4 }}>
+    <ButtonContainer>  <Button onClick={navigateToHome} sx={{ mb: 2 }}>
+        <ArrowBackOutlinedIcon style={{color:'black'}}/>
+        <Typography style={{ marginLeft: "10px",color:'black' }}>Back to home</Typography>
+      </Button></ButtonContainer>
+      <Container sx={{ py: 8 }}>
       <Grid container spacing={4}>
         {sofas.map((sofa, index) => (
           <Grid item xs={12} sm={12} md={4} lg={4} key={index}>
@@ -92,8 +92,15 @@ const AllProducts = () => {
       )}
     </Container>
     </>
-  
   );
 };
+//styled component
+const ButtonContainer = styled(Box)({
+position: "fixed",
+color:'black',
+zIndex: 1000,
+borderRadius:'32px',
+
+})
 
 export default AllProducts;

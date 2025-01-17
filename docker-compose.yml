@@ -20,7 +20,32 @@ services:
       - app-network
     volumes:
       - ./backend:/app
-      - backend_db:/app/db
+    environment:
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=couch_matcher
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+    depends_on:
+      - postgres
+    command: >
+      bash -c "
+      python manage.py migrate &&
+      python manage.py runserver 0.0.0.0:8000
+      "
+  
+  postgres:
+    image: postgres:16.1
+    ports:
+      - "5438:5432"
+    networks:
+      - app-network
+    environment:
+      POSTGRES_DB: couch_matcher
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
 
 networks:
   app-network:
@@ -28,3 +53,4 @@ networks:
 
 volumes:
   backend_db:
+  postgres_data:

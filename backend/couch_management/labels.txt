@@ -1,0 +1,5 @@
+0 1-Seater
+1 2-Seater
+2 3-Seater
+3 L-Shape
+4 Sofa-Cum-Bed

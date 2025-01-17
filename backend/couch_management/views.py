@@ -1,15 +1,24 @@
-import cv2
-import numpy as np
+
+import os
+
+import environ
+from django.conf import settings
 from drf_spectacular.utils import OpenApiParameter, extend_schema
+from removebg import RemoveBg
 from rest_framework import generics, status
 from rest_framework.parsers import MultiPartParser
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from sklearn.metrics.pairwise import cosine_similarity
 
+from couch_management.keras import predict_image_class
 from couch_management.models import Sofa
 from couch_management.serializers import SofaSerializer
-from couch_management.utils import extract_image_features
+from couch_management.utils import (calculate_sofa_similarity,
+                                    get_dominant_color,
+                                    rgb_to_color_description)
+
+env = environ.Env()
+environ.Env.read_env()
 
 
 class SofaListView(generics.ListAPIView):
@@ -42,76 +51,71 @@ class SofaFilterAPIView(APIView):
         },
         responses={200: "List of sofas with similarity scores and pagination"},
     )
-
     def post(self, request, *args, **kwargs):
-        budget = request.query_params.get('budget', None)
-        image_file = request.FILES.get('image', None)
+        try:
+            budget = request.query_params.get('budget', None)
+            image_file = request.FILES.get('image', None)
 
-        sofas = Sofa.objects.all()
+            sofas = Sofa.objects.all()
 
-        if budget:
-            try:
-                budget = int(budget)
-                sofas = sofas.filter(price__lte=budget)
-            except ValueError:
-                 return Response({"error": "Invalid budget value."}, status=status.HTTP_400_BAD_REQUEST)
-
-        
-        if image_file:
-            try:
-                image_bytes = image_file.read()
-                image_array = np.frombuffer(image_bytes, np.uint8)
-                image = cv2.imdecode(image_array, cv2.IMREAD_COLOR)
-            except Exception as e:
-                return Response({"error": "Could not process the uploaded image."}, status=status.HTTP_400_BAD_REQUEST)
-
-            uploaded_image_features = extract_image_features(image, return_as_bytes=False)
-            if uploaded_image_features is None:
-                return Response({"error": "Could not extract features from the uploaded image."}, status=status.HTTP_400_BAD_REQUEST)
-        
-            uploaded_image_features_np = np.array(uploaded_image_features).reshape(1, -1)
+            if budget:
+                sofas = sofas.filter(original_price__lte=float(budget))
             
-            similarities = []
-            for sofa in sofas:
-                if sofa.features:
-                    try:
-                        sofa_features_np = np.frombuffer(sofa.features, dtype=np.uint8).reshape(1, -1)
-                        similarity_score = self.compare_images(uploaded_image_features_np, sofa_features_np)
-                        if similarity_score >= 0.6:
-                            similarities.append((sofa, similarity_score))
-                    except Exception as e:
-                        continue
+            if image_file:
+                temp_image_path = os.path.join(settings.MEDIA_ROOT, image_file.name)
+                with open(temp_image_path, 'wb') as f:
+                    for chunk in image_file.chunks():
+                        f.write(chunk)
 
-            similarities.sort(key=lambda x: x[1], reverse=True)
+                predicted_class, confidence_score = predict_image_class(temp_image_path)
 
-            data = []
-            for sofa, score in similarities:
-                data.append({
-                    "sofa": {
-                        **SofaSerializer(sofa, context={'request': request}).data,
-                        "similarity_score": float(score * 100)
-                    }
-                })
+                rmbg = RemoveBg(env("REMOVE_BG_API_KEY"), "error.log")
 
-            if not data:
-                return Response({"message": "No match data found"}, status=status.HTTP_404_NOT_FOUND)
+                try:
+                    rmbg.remove_background_from_img_file(temp_image_path)
+                    bg_removed_path = f"{temp_image_path}_no_bg.png"
+                except Exception as e:
+                    return Response({"error": "Background removal failed. Please check the API or payment status."}, status=402)
 
-            return Response(data)
-        else:
-            serializer = SofaSerializer(sofas, many=True, context={'request': request})
-            return Response(serializer.data)
 
-    def compare_images(self, image1_features, image2_features):
-        """
-        Compare two feature arrays using cosine similarity
-        """
-        if image1_features.size == 0 or image2_features.size == 0:
-            return 0.0
+                dominant_color = get_dominant_color(bg_removed_path)
+                dominant_color_description = rgb_to_color_description(dominant_color)
+                color_name = dominant_color_description.split(" (Hex: ")[0]
 
-        if image1_features.shape[1] != image2_features.shape[1]:
-            min_features = min(image1_features.shape[1], image2_features.shape[1])
-            image1_features = image1_features[:, :min_features]
-            image2_features = image2_features[:, :min_features]
-            
-        similarity_score = cosine_similarity(image1_features, image2_features)[0][0]
-        return similarity_score
+                sofas = sofas.filter(features__class_name=predicted_class)
+
+                sofas_with_similarity = []
+                for sofa in sofas:
+                    similarity_percentage = calculate_sofa_similarity(
+                        predicted_class,
+                        dominant_color,
+                        color_name,
+                        sofa
+                    )
+                    sofas_with_similarity.append((sofa, similarity_percentage))
+
+                sofas_with_similarity.sort(key=lambda x: x[1], reverse=True)
+
+                data = []
+                for sofa, score in sofas_with_similarity:
+                    data.append({
+                        "sofa": {
+                            **SofaSerializer(sofa, context={'request': request}).data,
+                            "similarity_score": score
+                        }
+                    })
+
+                if not data:
+                    return Response({"message": "No match data found"}, status=status.HTTP_404_NOT_FOUND)
+
+                return Response(data)
+            else:
+                serializer = SofaSerializer(sofas, many=True, context={'request': request})
+                return Response(serializer.data)
+
+        except ValueError as e:
+            return Response({"error": str(e)}, status=400)
+
+        finally:
+            if os.path.exists(temp_image_path):
+                os.remove(temp_image_path)

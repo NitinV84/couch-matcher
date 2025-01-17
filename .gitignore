@@ -5,3 +5,8 @@ venv/
 
 *.log
 requirements-dev.txt
+script_env/
+new_sofa/
+sofa/
+thub_venv/
+media/

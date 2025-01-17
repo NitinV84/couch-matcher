@@ -16,7 +16,7 @@ class Sofa(models.Model):
         discount (float): The discount applied to the sofa in percent.
         quantity (int): The quantity of the sofa in stock.
         description (str): A brief description of the sofa.
-        features (BinaryField): A binary field to store image features.
+        features (JSONField): A json field to store image features.
     """
     name = models.CharField(max_length=255)
     image = models.ImageField(upload_to='sofa_images/')
@@ -25,7 +25,7 @@ class Sofa(models.Model):
     discount = models.FloatField(default=0, validators=[MaxValueValidator(100)])
     quantity = models.IntegerField(default=1)
     description = models.TextField(null=True, blank=True)
-    features = models.BinaryField(null=True, blank=True)
+    features = models.JSONField(null=True, blank=True)
 
     def save(self, *args, **kwargs):
         """

@@ -21,6 +21,7 @@ const UploadForm = () => {
     quantity: 1,
     deliveryDate: "",
   });
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
   const postFormApi = async () => {
@@ -41,6 +42,7 @@ const UploadForm = () => {
   
       if (response?.data) {
         setCardData(response?.data);
+        setLoading(false);
       }
     } catch (error) {
       const errorMessage = error?.response?.data?.message ;
@@ -109,6 +111,7 @@ const UploadForm = () => {
     
   };
 const submitData=()=>{
+  setLoading(true);
   postFormApi()
   setOpenModal(false);
 }
@@ -207,7 +210,7 @@ const submitData=()=>{
           </Grid>
 
           <CustomButton type="submit" fullWidth>
-            Get Quotation
+          {loading ?( <CircularProgress style={{color:'white'}} />):("Get Quotation")}
           </CustomButton>
         </form>
       </FormContainer>
@@ -316,6 +319,7 @@ const CustomButton = styled(Button)({
   "&:hover": {
     backgroundColor: "#333",
   },
+  minHeight:'55px', 
 });
 
 const StyledImageBox = styled(Box)({
