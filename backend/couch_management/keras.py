@@ -37,7 +37,7 @@ def predict_image_class(image_path):
     model = load_keras_model(model_path)
 
     with open(labels_path, "r") as f:
-        class_names = [line.strip().split(" ", 1)[1] for line in f.readlines()]
+        sofa_types = [line.strip().split(" ", 1)[1] for line in f.readlines()]
 
     image = Image.open(image_path).convert("RGB")
     size = (224, 224)
@@ -50,9 +50,9 @@ def predict_image_class(image_path):
 
     prediction = model.predict(data)
     index = np.argmax(prediction)
-    class_name = class_names[index].strip()
+    sofa_type = sofa_types[index].strip()
     confidence_score = prediction[0][index]
 
-    print(f"Predicted class: {class_name}, Confidence: {confidence_score}")
+    print(f"Predicted Type: {sofa_type}, Confidence: {confidence_score}")
 
-    return class_name, confidence_score
+    return sofa_type, confidence_score

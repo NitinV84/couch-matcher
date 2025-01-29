@@ -16,6 +16,16 @@ from couch_management.serializers import SofaSerializer
 from couch_management.utils import (calculate_sofa_similarity,
                                     get_dominant_color)
 
+import numpy as np
+
+def calculate_color_distance(color1, color2):
+    """
+    Calculate the Euclidean distance between two colors in RGB space.
+    """
+    color1 = np.array(color1)
+    color2 = np.array(color2)
+    return np.linalg.norm(color1 - color2)
+
 
 class SofaListView(generics.ListAPIView):
     """
@@ -81,17 +91,21 @@ class SofaFilterAPIView(APIView):
 
 
                 dominant_color = get_dominant_color(bg_removed_path)
+                dominant_color = list(dominant_color)
 
-                sofas = sofas.filter(features__class_name=predicted_class)
+                sofas = sofas.filter(features__sofa_type=predicted_class)
 
                 sofas_with_similarity = []
                 for sofa in sofas:
-                    similarity_percentage = calculate_sofa_similarity(
-                        predicted_class,
-                        dominant_color,
-                        sofa
-                    )
-                    sofas_with_similarity.append((sofa, similarity_percentage))
+                    sofa_rgb_color = sofa.features.get('rgb_color')
+                    if sofa_rgb_color:
+                        color_distance = calculate_color_distance(dominant_color, sofa_rgb_color)
+
+                        color_threshold = 20
+
+                        if color_distance <= color_threshold:
+                            similarity_percentage = calculate_sofa_similarity(predicted_class, dominant_color, sofa)
+                            sofas_with_similarity.append((sofa, similarity_percentage))
 
                 sofas_with_similarity.sort(key=lambda x: x[1], reverse=True)
 

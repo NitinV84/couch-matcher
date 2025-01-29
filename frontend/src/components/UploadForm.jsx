@@ -43,15 +43,11 @@ const UploadForm = () => {
       if (response?.data) {
         setCardData(response?.data);
         setLoading(false);
-  
-        // Scroll to the container after the data is fetched
-        if (containerRef.current) {
-          containerRef.current.scrollIntoView({ behavior: "smooth" });
-        }
       }
     } catch (error) {
       const errorMessage = error?.response?.data?.message;
       setErrorMessage(errorMessage);
+      setLoading(false);
     }
   };
   
