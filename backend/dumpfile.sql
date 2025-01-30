@@ -416,206 +416,206 @@ COPY public.auth_user_user_permissions (id, user_id, permission_id) FROM stdin;
 --
 
 COPY public.couch_management_sofa (id, name, image, price, original_price, discount, quantity, description, features) FROM stdin;
-17	Napper Plus Sofa -Three Seater Reflection Rose Brown	sofa_images/sofa_15_lZf8jo5.jpg	33998	26178.46	23	1		{"hex_color": "#808080", "rgb_color": [150, 109, 112], "class_name": "3-Seater", "color_name": "gray"}
-3	Flipper Sofa Cum Bed - Three Seater (6'x5') Feet- WarpKnit\n                      Grey	sofa_images/sofa_1_nFSO1Jk.jpg	8999	6209.3099999999995	31	1		{"hex_color": "#a9a9a9", "rgb_color": [192, 181, 167], "class_name": "2-Seater", "color_name": "darkgray"}
-4	Solatio Sofa - Three Seater	sofa_images/sofa_2_XYfUwZj.jpg	11998	9358.44	22	1		{"hex_color": "#c0c0c0", "rgb_color": [187, 181, 178], "class_name": "3-Seater", "color_name": "silver"}
-5	Solomon Sofa - Three Seater	sofa_images/sofa_3_apgHjjn.jpg	32999	21449.35	35	1		{"hex_color": "#808080", "rgb_color": [150, 141, 126], "class_name": "2-Seater", "color_name": "gray"}
-6	Napper Sofa - Three Seater	sofa_images/sofa_4_5fI2NQG.jpg	25000	21000	16	1		{"hex_color": "#f8f8ff", "rgb_color": [249, 250, 250], "class_name": "3-Seater", "color_name": "ghostwhite"}
-7	Amoeba Sofa cum Bed	sofa_images/sofa_5_500YJJc.jpg	22157	15953.04	28	1		{"hex_color": "#808080", "rgb_color": [148, 145, 129], "class_name": "2-Seater", "color_name": "gray"}
-8	Barcelona L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_6_BLz4YyU.jpg	40407	35558.16	12	1		{"hex_color": "#d3d3d3", "rgb_color": [222, 216, 203], "class_name": "L-Shape", "color_name": "lightgray"}
-9	Naxos Sofa - Three Seater	sofa_images/sofa_7_hePw3ZB.jpg	45499	29574.35	35	1		{"hex_color": "#d3d3d3", "rgb_color": [218, 201, 186], "class_name": "2-Seater", "color_name": "lightgray"}
-10	Belize L Shape Sofa Set (3 Seater + Left Aligned Chaise)	sofa_images/sofa_8_aZS9lzf.jpg	32694	27789.9	15	1		{"hex_color": "#faebd7", "rgb_color": [239, 229, 220], "class_name": "L-Shape", "color_name": "antiquewhite"}
-11	Skiver L Shape 6 Seater Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_9_0rMIYjs.jpg	26000	17680	32	1		{"hex_color": "#d3d3d3", "rgb_color": [213, 207, 198], "class_name": "L-Shape", "color_name": "lightgray"}
-12	Azores Sofa - Three Seater	sofa_images/sofa_10_JeAlRVM.jpg	33999	22099.35	35	1		{"hex_color": "#c0c0c0", "rgb_color": [194, 186, 173], "class_name": "2-Seater", "color_name": "silver"}
-13	Lumara Sofa -Three Seater	sofa_images/sofa_11_31fIIET.jpg	25999	16899.35	35	1		{"hex_color": "#c0c0c0", "rgb_color": [205, 189, 175], "class_name": "3-Seater", "color_name": "silver"}
-14	Tahiti Sofa - Three Seater	sofa_images/sofa_12_LtZ3mLP.jpg	37999	24699.35	35	1		{"hex_color": "#ffe4c4", "rgb_color": [236, 215, 202], "class_name": "2-Seater", "color_name": "bisque"}
-15	Belize Plus L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_13_B1OiIiP.jpg	49449	42526.14	14	1		{"hex_color": "#a9a9a9", "rgb_color": [172, 173, 175], "class_name": "L-Shape", "color_name": "darkgray"}
-16	Dreamer Plus Sofa -Three Seater	sofa_images/sofa_14_JgeuAkR.jpg	35498	26268.52	26	1		{"hex_color": "#c0c0c0", "rgb_color": [194, 183, 179], "class_name": "2-Seater", "color_name": "silver"}
-18	Tuvalu Sofa without Motion - Three Seater	sofa_images/sofa_16_EsHEehE.jpg	39999	25999.35	35	1		{"hex_color": "#d3d3d3", "rgb_color": [223, 217, 205], "class_name": "L-Shape", "color_name": "lightgray"}
-19	Komodo Sofa - Three Seater	sofa_images/sofa_17_dga0wyE.jpg	37499	24374.35	35	1		{"hex_color": "#d3d3d3", "rgb_color": [213, 204, 193], "class_name": "3-Seater", "color_name": "lightgray"}
-20	SnoozePro Sofa - Three Seater	sofa_images/sofa_18_agUt1ly.jpg	19600	14504	26	1		{"hex_color": "#faf0e6", "rgb_color": [240, 238, 229], "class_name": "3-Seater", "color_name": "linen"}
-21	Sicily Sofa - Three Seater	sofa_images/sofa_19_e2JyAqF.jpg	16999	13769.19	19	1		{"hex_color": "#dcdcdc", "rgb_color": [225, 223, 221], "class_name": "3-Seater", "color_name": "gainsboro"}
-22	Tasmania Sofa - Two Seater	sofa_images/sofa_20_LPsML5b.jpg	18867	14527.59	23	1		{"hex_color": "#000000", "rgb_color": [18, 23, 30], "class_name": "2-Seater", "color_name": "black"}
-23	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Right Aligned Chaise)	sofa_images/sofa_21_NZVjcdE.jpg	42999	27949.35	35	1		{"hex_color": "#696969", "rgb_color": [98, 91, 87], "class_name": "Sofa-Cum-Bed", "color_name": "dimgray"}
-24	Lounger Plus Sofa set (3+2) Seater	sofa_images/sofa_22_fQAEa3B.jpg	72545	52232.4	28	1		{"hex_color": "#2f4f4f", "rgb_color": [24, 39, 48], "class_name": "2-Seater", "color_name": "darkslategray"}
-25	Snoozepro Plus L Shape Sofa Set (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_23_oBWFXZ7.jpg	47896	34006.16	29	1		{"hex_color": "#808080", "rgb_color": [124, 132, 139], "class_name": "L-Shape", "color_name": "gray"}
-26	Brunei Love seat Sofa - 2 Seater	sofa_images/sofa_24_dD9tgiY.jpg	18999	12349.35	35	1		{"hex_color": "#808080", "rgb_color": [116, 120, 122], "class_name": "2-Seater", "color_name": "gray"}
-27	Manila Sheesham Wood Sofa - Three Seater	sofa_images/sofa_25_PsHpOVc.jpg	33414	27399.48	18	1		{"hex_color": "#faebd7", "rgb_color": [236, 226, 211], "class_name": "3-Seater", "color_name": "antiquewhite"}
-28	Maseru Sofa - Three Seater	sofa_images/sofa_26_tnNpIWE.jpg	27999	18199.35	35	1		{"hex_color": "#f5deb3", "rgb_color": [220, 203, 181], "class_name": "2-Seater", "color_name": "wheat"}
-29	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Left Aligned Chaise)	sofa_images/sofa_27_qH7tEMN.jpg	42999	27949.35	35	1		{"hex_color": "#696969", "rgb_color": [90, 88, 91], "class_name": "Sofa-Cum-Bed", "color_name": "dimgray"}
-30	Magnus Sofa - Three Seater	sofa_images/sofa_28_HvzHf34.jpg	39999	25999.35	35	1		{"hex_color": "#c0c0c0", "rgb_color": [204, 197, 187], "class_name": "2-Seater", "color_name": "silver"}
-31	Comoros Corner L Shape Sofa (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_29_yEAbSHG.jpg	84299	54794.35	35	1		{"hex_color": "#808080", "rgb_color": [142, 130, 111], "class_name": "L-Shape", "color_name": "gray"}
-32	Lounger Sofa - Three Seater	sofa_images/sofa_30_dvvJgAp.jpg	28499	20234.29	29	1		{"hex_color": "#2f4f4f", "rgb_color": [51, 43, 38], "class_name": "2-Seater", "color_name": "darkslategray"}
-33	Hawaii Sofa - 3 Seater - Dark Blue	sofa_images/sofa_31_D4c6FC0.jpg	14399	10655.26	26	1		{"hex_color": "#ffffff", "rgb_color": [254, 254, 254], "class_name": "2-Seater", "color_name": "white"}
-34	Napper Mini Sofa - 3 Seater (1.94m*85.09cm*85.34cm) /\n                      (76.5*33.5*33.6inch)	sofa_images/sofa_32_KSsF8yC.jpg	20299	14412.29	29	1		{"hex_color": "#f8f8ff", "rgb_color": [249, 250, 250], "class_name": "3-Seater", "color_name": "ghostwhite"}
-35	Dreamer Sofa - Three Seater	sofa_images/sofa_33_gp12bGg.jpg	26880	21235.2	21	1		{"hex_color": "#c0c0c0", "rgb_color": [196, 191, 186], "class_name": "2-Seater", "color_name": "silver"}
-36	Bahamas Sheesham Wood Sofa - Three Seater	sofa_images/sofa_34_FLfJebG.jpg	25276	21990.12	13	1		{"hex_color": "#d3d3d3", "rgb_color": [226, 209, 196], "class_name": "2-Seater", "color_name": "lightgray"}
-37	Miami Sofa - 3 Seater - Omega Green	sofa_images/sofa_35_vyDbEby.jpg	15200	10336	32	1		{"hex_color": "#696969", "rgb_color": [95, 115, 102], "class_name": "2-Seater", "color_name": "dimgray"}
-38	Havana Sofa - Two Seater Cobalt Blue	sofa_images/sofa_36_DeLFr9K.jpg	19500	15210	22	1		{"hex_color": "#f5f5f5", "rgb_color": [241, 241, 241], "class_name": "2-Seater", "color_name": "whitesmoke"}
-39	Naples Sofa cum Bed - Three Seater, Omega Blue	sofa_images/sofa_37_nMO0aNW.jpg	14998	11548.46	23	1		{"hex_color": "#808080", "rgb_color": [147, 142, 141], "class_name": "3-Seater", "color_name": "gray"}
-40	Fyras 3 Seater Solid wood Sofa	sofa_images/sofa_38_6MK42Ku.jpg	22799	13679.4	40	1		{"hex_color": "#bc8f8f", "rgb_color": [160, 145, 135], "class_name": "2-Seater", "color_name": "rosybrown"}
-41	Stefano Sofa - Two Seater	sofa_images/sofa_39_iTxafcW.jpg	32999	19799.4	40	1		{"hex_color": "#2f4f4f", "rgb_color": [81, 68, 60], "class_name": "2-Seater", "color_name": "darkslategray"}
-42	Catania 1 Seater Solid wood Sofa	sofa_images/sofa_40_a4X6eji.jpg	16799	10079.4	40	1		{"hex_color": "#dcdcdc", "rgb_color": [230, 221, 213], "class_name": "2-Seater", "color_name": "gainsboro"}
-43	Divo 3 Seater Solid wood Sofa	sofa_images/sofa_41_1Er6V8F.jpg	31799	19079.4	40	1		{"hex_color": "#bc8f8f", "rgb_color": [173, 154, 140], "class_name": "3-Seater", "color_name": "rosybrown"}
-44	Haverford Sofa - Three Seater	sofa_images/sofa_42_FKBGBUo.jpg	36397	21474.23	41	1		{"hex_color": "#d3d3d3", "rgb_color": [206, 205, 205], "class_name": "2-Seater", "color_name": "lightgray"}
-45	Flipper Sofa cum Bed - Three Seater, Omega Blue	sofa_images/sofa_43_c3cmb4Z.jpg	12350	8521.5	31	1		{"hex_color": "#e6e6fa", "rgb_color": [234, 232, 233], "class_name": "2-Seater", "color_name": "lavender"}
-46	Solatio Sofa - Three Seater	sofa_images/sofa_44_PpqArBv.jpg	11998	9358.44	22	1		{"hex_color": "#dcdcdc", "rgb_color": [224, 220, 215], "class_name": "2-Seater", "color_name": "gainsboro"}
-47	Solomon Sofa Set (3+2) Seater	sofa_images/sofa_45_6dNREoK.jpg	58498	38023.7	35	1		{"hex_color": "#bc8f8f", "rgb_color": [170, 157, 143], "class_name": "2-Seater", "color_name": "rosybrown"}
-48	Napper L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_46_WsNswjm.jpg	46279	38874.36	16	1		{"hex_color": "#d3d3d3", "rgb_color": [204, 205, 205], "class_name": "Sofa-Cum-Bed", "color_name": "lightgray"}
-49	Amoeba Sofa cum Bed	sofa_images/sofa_47_AGxbWr1.jpg	20900	15048	28	1		{"hex_color": "#808080", "rgb_color": [121, 129, 122], "class_name": "2-Seater", "color_name": "gray"}
-50	Barcelona Sofa - Three Seater	sofa_images/sofa_48_7i6W1X7.jpg	30067	26458.96	12	1		{"hex_color": "#2f4f4f", "rgb_color": [32, 57, 89], "class_name": "2-Seater", "color_name": "darkslategray"}
-51	Naxos Sofa Set (3+2) Seater	sofa_images/sofa_49_ZmB1DIM.jpg	77997	50698.05	35	1		{"hex_color": "#d3d3d3", "rgb_color": [221, 201, 188], "class_name": "L-Shape", "color_name": "lightgray"}
-52	Belize Sofa - Three Seater	sofa_images/sofa_50_xAn8VsD.jpg	23998	20158.32	16	1		{"hex_color": "#f5f5f5", "rgb_color": [241, 246, 249], "class_name": "3-Seater", "color_name": "whitesmoke"}
-53	Skiver L Shape 6 Seater Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_51_eDPbmDX.jpg	26000	17680	32	1		{"hex_color": "#c0c0c0", "rgb_color": [200, 198, 195], "class_name": "L-Shape", "color_name": "silver"}
-54	Azores Sofa - Two Seater	sofa_images/sofa_52_kqUhI6P.jpg	27999	18199.35	35	1		{"hex_color": "#c0c0c0", "rgb_color": [205, 190, 179], "class_name": "2-Seater", "color_name": "silver"}
-55	Lumara Sofa -Three Seater	sofa_images/sofa_53_uRZKKtz.jpg	25999	16899.35	35	1		{"hex_color": "#d3d3d3", "rgb_color": [225, 212, 206], "class_name": "3-Seater", "color_name": "lightgray"}
-56	Tahiti Sofa - Three Seater	sofa_images/sofa_54_iQop4rb.jpg	37999	24699.35	35	1		{"hex_color": "#a9a9a9", "rgb_color": [186, 167, 156], "class_name": "2-Seater", "color_name": "darkgray"}
-57	Belize Plus Sofa - Three Seater	sofa_images/sofa_55_RINIPKm.jpg	32998	25078.48	24	1		{"hex_color": "#a9a9a9", "rgb_color": [160, 163, 155], "class_name": "3-Seater", "color_name": "darkgray"}
-58	Dreamer Plus Sofa -Three Seater	sofa_images/sofa_56_RvIEKA3.jpg	35498	26268.52	26	1		{"hex_color": "#ffffff", "rgb_color": [254, 254, 254], "class_name": "2-Seater", "color_name": "white"}
-59	Napper Plus Sofa -Three Seater Vogue Deep Ocean	sofa_images/sofa_57_gtV944b.jpg	37167	28618.59	23	1		{"hex_color": "#a9a9a9", "rgb_color": [187, 180, 171], "class_name": "3-Seater", "color_name": "darkgray"}
-60	Tuvalu without Motion Sofa Set (3+2) Seater	sofa_images/sofa_58_4HeOB1E.jpg	69498	45173.7	35	1		{"hex_color": "#d3d3d3", "rgb_color": [218, 213, 199], "class_name": "L-Shape", "color_name": "lightgray"}
-61	Komodo L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_59_1xkBdgc.jpg	54999	35749.35	35	1		{"hex_color": "#bc8f8f", "rgb_color": [163, 143, 116], "class_name": "L-Shape", "color_name": "rosybrown"}
-62	SnoozePro Sofa - Three Seater Omega Green	sofa_images/sofa_60_KYOQqAK.jpg	19600	14504	26	1		{"hex_color": "#696969", "rgb_color": [101, 117, 103], "class_name": "2-Seater", "color_name": "dimgray"}
-63	Sicily Sofa - Three Seater	sofa_images/sofa_61_g9CYDfP.jpg	16999	13769.19	19	1		{"hex_color": "#dcdcdc", "rgb_color": [225, 224, 222], "class_name": "3-Seater", "color_name": "gainsboro"}
-64	Tasmania Sofa Set - (3+2) Seater	sofa_images/sofa_62_IbYj0ag.jpg	43749	33686.729999999996	23	1		{"hex_color": "#808080", "rgb_color": [127, 116, 107], "class_name": "L-Shape", "color_name": "gray"}
-65	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Left Aligned Chaise)	sofa_images/sofa_63_8iKnCtO.jpg	42999	27949.35	35	1		{"hex_color": "#696969", "rgb_color": [93, 95, 84], "class_name": "Sofa-Cum-Bed", "color_name": "dimgray"}
-66	Lounger Plus Sofa - (3 Seater +Left Aligned Chaise)	sofa_images/sofa_64_NIBX9Fl.jpg	59123	42568.56	28	1		{"hex_color": "#808080", "rgb_color": [155, 145, 137], "class_name": "L-Shape", "color_name": "gray"}
-67	Snoozepro Plus L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_65_nlma00s.jpg	47896	34006.16	29	1		{"hex_color": "#808080", "rgb_color": [124, 132, 140], "class_name": "L-Shape", "color_name": "gray"}
-68	Manila Sheesham Wood Sofa - Three Seater	sofa_images/sofa_66_JzPVO8j.jpg	33414	27399.48	18	1		{"hex_color": "#faebd7", "rgb_color": [237, 226, 211], "class_name": "3-Seater", "color_name": "antiquewhite"}
-69	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Left Aligned Chaise)	sofa_images/sofa_67_rks9oev.jpg	42999	27949.35	35	1		{"hex_color": "#bc8f8f", "rgb_color": [162, 149, 141], "class_name": "Sofa-Cum-Bed", "color_name": "rosybrown"}
-70	Magnus Sofa - Three Seater	sofa_images/sofa_68_QkLL0Aj.jpg	39999	25999.35	35	1		{"hex_color": "#faebd7", "rgb_color": [250, 235, 210], "class_name": "2-Seater", "color_name": "antiquewhite"}
-71	Comoros Corner L Shape Sofa (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_69_aipODYz.jpg	84299	54794.35	35	1		{"hex_color": "#808080", "rgb_color": [147, 135, 124], "class_name": "L-Shape", "color_name": "gray"}
-72	Lounger L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_70_kcGeNmU.jpg	38208	27127.68	29	1		{"hex_color": "#dcdcdc", "rgb_color": [228, 226, 225], "class_name": "L-Shape", "color_name": "gainsboro"}
-73	Haverford Sofa - Two Seater	sofa_images/sofa_71_jsFkhT8.jpg	27899	16739.4	40	1		{"hex_color": "#fffafa", "rgb_color": [252, 251, 250], "class_name": "2-Seater", "color_name": "snow"}
-74	Napper Mini Sofa - 3 Seater (1.94m*85.09cm*85.34cm) /\n                      (76.5*33.5*33.6inch)	sofa_images/sofa_72_eJglNmd.jpg	20299	14412.29	29	1		{"hex_color": "#fffafa", "rgb_color": [249, 249, 248], "class_name": "2-Seater", "color_name": "snow"}
-75	Dreamer Sofa - Three Seater	sofa_images/sofa_73_JPm0Bik.jpg	25497	20142.63	21	1		{"hex_color": "#696969", "rgb_color": [109, 120, 106], "class_name": "2-Seater", "color_name": "dimgray"}
-76	Bahamas Sheesham Wood Sofa Set - (3+2)	sofa_images/sofa_74_C1Q6TNk.jpg	44870	39036.9	13	1		{"hex_color": "#bc8f8f", "rgb_color": [166, 149, 133], "class_name": "2-Seater", "color_name": "rosybrown"}
-77	Miami Sofa - 3 Seater - Omega Blue	sofa_images/sofa_75_uavsoyM.jpg	15200	10336	32	1		{"hex_color": "#a9a9a9", "rgb_color": [163, 163, 163], "class_name": "2-Seater", "color_name": "darkgray"}
-78	Havana Sofa - Three Seater Malibu Green	sofa_images/sofa_76_HFbZpGd.jpg	26199	20435.22	22	1		{"hex_color": "#d3d3d3", "rgb_color": [203, 207, 212], "class_name": "3-Seater", "color_name": "lightgray"}
-79	Naples Sofa cum Bed - Three Seater, Cobalt Blue	sofa_images/sofa_77_0ts3niW.jpg	16170	12612.6	22	1		{"hex_color": "#483d8b", "rgb_color": [83, 61, 103], "class_name": "2-Seater", "color_name": "darkslateblue"}
-80	Fyras 2 Seater Solid wood Sofa	sofa_images/sofa_78_6F4t0iY.jpg	18599	11159.4	40	1		{"hex_color": "#d3d3d3", "rgb_color": [215, 214, 215], "class_name": "2-Seater", "color_name": "lightgray"}
-81	Solatio Sofa - Three Seater	sofa_images/sofa_79_SOeJ2k8.jpg	11998	9358.44	22	1		{"hex_color": "#000000", "rgb_color": [44, 30, 11], "class_name": "2-Seater", "color_name": "black"}
-82	Solomon Sofa - Single Seater	sofa_images/sofa_80_DYdoFjX.jpg	16999	11049.35	35	1		{"hex_color": "#c0c0c0", "rgb_color": [199, 198, 189], "class_name": "1-Seater", "color_name": "silver"}
-83	Napper Sofa Set (3+2)	sofa_images/sofa_81_7tkLWnf.jpg	47073	38599.86	18	1		{"hex_color": "#f5f5f5", "rgb_color": [248, 248, 248], "class_name": "2-Seater", "color_name": "whitesmoke"}
-84	Amoeba Sofa cum Bed	sofa_images/sofa_82_ixCVEVL.jpg	22157	15953.04	28	1		{"hex_color": "#d3d3d3", "rgb_color": [227, 217, 200], "class_name": "2-Seater", "color_name": "lightgray"}
-85	Barcelona L Shape Sofa Set (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_83_SV3EPpc.jpg	36436	31334.96	14	1		{"hex_color": "#faebd7", "rgb_color": [236, 230, 225], "class_name": "L-Shape", "color_name": "antiquewhite"}
-86	Belize L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_84_zhGC3d2.jpg	35130	29860.5	15	1		{"hex_color": "#808080", "rgb_color": [145, 134, 125], "class_name": "L-Shape", "color_name": "gray"}
-87	Skiver L Shape 6 Seater Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_85_COMYpCW.jpg	26000	17680	32	1		{"hex_color": "#2f4f4f", "rgb_color": [27, 52, 84], "class_name": "L-Shape", "color_name": "darkslategray"}
-88	Azores Sofa Set (3+2+1) Seater	sofa_images/sofa_86_LMQ2NGJ.jpg	80996	52647.4	35	1		{"hex_color": "#c0c0c0", "rgb_color": [190, 185, 178], "class_name": "2-Seater", "color_name": "silver"}
-89	Lumara Sofa Set - (3+2) Seater	sofa_images/sofa_87_hySlcDO.jpg	46498	30223.7	35	1		{"hex_color": "#bc8f8f", "rgb_color": [158, 146, 137], "class_name": "L-Shape", "color_name": "rosybrown"}
-90	Tahiti Sofa seat(3+2) Seater	sofa_images/sofa_88_TsPXFH8.jpg	69998	45498.7	35	1		{"hex_color": "#8b4513", "rgb_color": [134, 71, 36], "class_name": "L-Shape", "color_name": "saddlebrown"}
-91	Belize Plus L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_89_1m4kPCm.jpg	46117	38738.28	16	1		{"hex_color": "#808080", "rgb_color": [139, 116, 99], "class_name": "L-Shape", "color_name": "gray"}
-92	Dreamer Plus L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_90_gTMFDHl.jpg	51678	43409.520000000004	16	1		{"hex_color": "#dcdcdc", "rgb_color": [229, 229, 221], "class_name": "L-Shape", "color_name": "gainsboro"}
-93	Napper Plus Sofa -Three Seater Reflection Mocha Brown	sofa_images/sofa_91_RGGWMqB.jpg	33998	26178.46	23	1		{"hex_color": "#bc8f8f", "rgb_color": [157, 141, 136], "class_name": "3-Seater", "color_name": "rosybrown"}
-94	SnoozePro Sofa Set	sofa_images/sofa_92_cOt4W7X.jpg	36899	27305.260000000002	26	1		{"hex_color": "#f0f8ff", "rgb_color": [240, 246, 252], "class_name": "L-Shape", "color_name": "aliceblue"}
-95	Sicily Sofa - Three Seater	sofa_images/sofa_93_fx2gBWF.jpg	16999	13769.19	19	1		{"hex_color": "#dcdcdc", "rgb_color": [227, 226, 223], "class_name": "3-Seater", "color_name": "gainsboro"}
-96	Tasmania Sofa Set - (3+2) Seater	sofa_images/sofa_94_KtjQpZJ.jpg	43749	33686.729999999996	23	1		{"hex_color": "#191970", "rgb_color": [18, 38, 73], "class_name": "L-Shape", "color_name": "midnightblue"}
-97	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Right Aligned Chaise)	sofa_images/sofa_95_FuZwKoq.jpg	42999	27949.35	35	1		{"hex_color": "#556b2f", "rgb_color": [85, 75, 69], "class_name": "Sofa-Cum-Bed", "color_name": "darkolivegreen"}
-98	Lounger Plus Sofa set (3+1+1) Seater	sofa_images/sofa_96_B7MbtNA.jpg	89278	64280.16	28	1		{"hex_color": "#bc8f8f", "rgb_color": [171, 158, 143], "class_name": "L-Shape", "color_name": "rosybrown"}
-99	SnoozePro Plus Sofa Set - (3+2+1) Reflection Mocha Brown	sofa_images/sofa_97_gmiIxsd.jpg	62998	44098.6	30	1		{"hex_color": "#c0c0c0", "rgb_color": [192, 191, 183], "class_name": "2-Seater", "color_name": "silver"}
-100	Manila Sheesham Wood Sofa Set - (3+2+1)	sofa_images/sofa_98_BGPyvwS.jpg	82242	66616.02	19	1		{"hex_color": "#a9a9a9", "rgb_color": [177, 173, 152], "class_name": "3-Seater", "color_name": "darkgray"}
-101	Magnus Sofa Set - (3+2)	sofa_images/sofa_99_og2pxKe.jpg	74998	48748.7	35	1		{"hex_color": "#556b2f", "rgb_color": [113, 78, 55], "class_name": "L-Shape", "color_name": "darkolivegreen"}
-102	Comoros Corner L Shape Sofa (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_100_DdEVl67.jpg	80499	52324.35	35	1		{"hex_color": "#808080", "rgb_color": [141, 130, 116], "class_name": "L-Shape", "color_name": "gray"}
-103	Lounger Sofa - Three Seater	sofa_images/sofa_101_TPVpwqv.jpg	27585	19585.35	29	1		{"hex_color": "#dcdcdc", "rgb_color": [230, 233, 218], "class_name": "2-Seater", "color_name": "gainsboro"}
-104	Haverford Sofa - Single Seater	sofa_images/sofa_102_tBIGfTd.jpg	20097	12058.2	40	1		{"hex_color": "#ffe4e1", "rgb_color": [245, 231, 225], "class_name": "1-Seater", "color_name": "mistyrose"}
-105	Napper Mini Sofa - 3 Seater Omega Green	sofa_images/sofa_103_gUSs6Py.jpg	20299	14412.29	29	1		{"hex_color": "#696969", "rgb_color": [109, 124, 115], "class_name": "3-Seater", "color_name": "dimgray"}
-106	Dreamer Sofa Set (3+2)	sofa_images/sofa_104_Wlgq2d0.jpg	48238	37625.64	22	1		{"hex_color": "#c0c0c0", "rgb_color": [196, 191, 186], "class_name": "2-Seater", "color_name": "silver"}
-107	Bahamas Sheesham Wood Sofa Set - (3+2)	sofa_images/sofa_105_Lbks1wM.jpg	45684	39745.08	13	1		{"hex_color": "#bc8f8f", "rgb_color": [166, 148, 133], "class_name": "2-Seater", "color_name": "rosybrown"}
-108	Miami Sofa - 3 Seater - Omega Pearl	sofa_images/sofa_106_XkQyHEU.jpg	15200	10336	32	1		{"hex_color": "#a9a9a9", "rgb_color": [170, 163, 160], "class_name": "2-Seater", "color_name": "darkgray"}
-109	Havana Sofa - Three Seater Cobalt Blue	sofa_images/sofa_107_DUNMdkg.jpg	26199	20435.22	22	1		{"hex_color": "#d3d3d3", "rgb_color": [226, 208, 195], "class_name": "3-Seater", "color_name": "lightgray"}
-110	Naples Sofa cum Bed - Three Seater, Omega Pearl	sofa_images/sofa_108_rvXkLcU.jpg	14998	11548.46	23	1		{"hex_color": "#a9a9a9", "rgb_color": [165, 159, 149], "class_name": "2-Seater", "color_name": "darkgray"}
-111	Fyras 1 Seater Solid wood Sofa	sofa_images/sofa_109_an1prZf.jpg	13619	8171.4	40	1		{"hex_color": "#bc8f8f", "rgb_color": [174, 144, 122], "class_name": "1-Seater", "color_name": "rosybrown"}
-112	Solomon Sofa Set (3+2+1) Seater	sofa_images/sofa_110_b58D9qZ.jpg	75497	49073.05	35	1		{"hex_color": "#c0c0c0", "rgb_color": [201, 194, 183], "class_name": "L-Shape", "color_name": "silver"}
-113	Napper Sofa Set - Three Seater	sofa_images/sofa_111_unGzRoX.jpg	25000	21000	16	1		{"hex_color": "#696969", "rgb_color": [109, 124, 115], "class_name": "3-Seater", "color_name": "dimgray"}
-114	Amoeba Sofa cum Bed	sofa_images/sofa_112_00gYYXy.jpg	22157	15953.04	28	1		{"hex_color": "#2f4f4f", "rgb_color": [51, 51, 51], "class_name": "2-Seater", "color_name": "darkslategray"}
-115	Barcelona Sofa - Three Seater	sofa_images/sofa_113_t2iul9X.jpg	27300	24024	12	1		{"hex_color": "#808080", "rgb_color": [126, 139, 130], "class_name": "3-Seater", "color_name": "gray"}
-116	Belize L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_114_jvqyhGz.jpg	34898	29663.3	15	1		{"hex_color": "#2f4f4f", "rgb_color": [30, 49, 72], "class_name": "L-Shape", "color_name": "darkslategray"}
-117	Skiver L Shape 6 Seater Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_115_iFKBnyU.jpg	26000	17680	32	1		{"hex_color": "#2f4f4f", "rgb_color": [41, 39, 52], "class_name": "L-Shape", "color_name": "darkslategray"}
-118	Azores Sofa Set (3+2) Seater	sofa_images/sofa_116_t2WpzzV.jpg	61998	40298.7	35	1		{"hex_color": "#a9a9a9", "rgb_color": [175, 169, 163], "class_name": "2-Seater", "color_name": "darkgray"}
-119	Lumara Sofa Set - (3+1+1) Seater	sofa_images/sofa_117_o9klYaW.jpg	55996	36397.4	35	1		{"hex_color": "#808080", "rgb_color": [150, 138, 129], "class_name": "L-Shape", "color_name": "gray"}
-120	Tahiti Sofa seat(3+2) Seater	sofa_images/sofa_118_BJ3RxhR.jpg	69998	45498.7	35	1		{"hex_color": "#d3d3d3", "rgb_color": [219, 210, 200], "class_name": "L-Shape", "color_name": "lightgray"}
-121	Belize Plus Sofa Set - (3+2)	sofa_images/sofa_119_1K2ggyW.jpg	55676	41757	25	1		{"hex_color": "#bc8f8f", "rgb_color": [175, 162, 147], "class_name": "L-Shape", "color_name": "rosybrown"}
-122	Dreamer Plus Sofa Set - (3+2)	sofa_images/sofa_120_K2ldC9c.jpg	61973	45860.020000000004	26	1		{"hex_color": "#5f9ea0", "rgb_color": [119, 156, 174], "class_name": "L-Shape", "color_name": "cadetblue"}
-123	Napper Plus Sofa Set - (3+2) Reflection Rose Brown	sofa_images/sofa_121_n4HKOrJ.jpg	59692	45962.84	23	1		{"hex_color": "#808080", "rgb_color": [162, 121, 123], "class_name": "L-Shape", "color_name": "gray"}
-124	SnoozePro Sofa Set (3+2)	sofa_images/sofa_122_Stb9QNO.jpg	34397	25109.809999999998	27	1		{"hex_color": "#faf0e6", "rgb_color": [240, 238, 229], "class_name": "3-Seater", "color_name": "linen"}
-125	Sicily Sofa - Three Seater	sofa_images/sofa_123_UyhjvSc.jpg	17839	14449.59	19	1		{"hex_color": "#696969", "rgb_color": [83, 83, 95], "class_name": "2-Seater", "color_name": "dimgray"}
-126	Tasmania Sofa - Two Seater	sofa_images/sofa_124_vgX5YAD.jpg	18867	14527.59	23	1		{"hex_color": "#000000", "rgb_color": [24, 24, 27], "class_name": "2-Seater", "color_name": "black"}
-127	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Right Aligned Chaise)	sofa_images/sofa_125_8W5xlqk.jpg	42999	27949.35	35	1		{"hex_color": "#696969", "rgb_color": [90, 87, 91], "class_name": "Sofa-Cum-Bed", "color_name": "dimgray"}
-128	Lounger Plus Sofa set (3+2) Seater	sofa_images/sofa_126_guhu3ao.jpg	67234	48408.479999999996	28	1		{"hex_color": "#696969", "rgb_color": [117, 82, 76], "class_name": "L-Shape", "color_name": "dimgray"}
-129	SnoozePro Plus Sofa -Two Seater Reflection Rose Brown	sofa_images/sofa_127_xuYJAQK.jpg	20999	14699.3	30	1		{"hex_color": "#696969", "rgb_color": [137, 94, 101], "class_name": "2-Seater", "color_name": "dimgray"}
-130	Manila Sheesham Wood Sofa Set - (3+2)	sofa_images/sofa_128_HCG0LeO.jpg	63145	51147.45	19	1		{"hex_color": "#faebd7", "rgb_color": [236, 226, 211], "class_name": "3-Seater", "color_name": "antiquewhite"}
-131	Magnus Sofa Set - (3+2)	sofa_images/sofa_129_oSJaM74.jpg	74998	48748.7	35	1		{"hex_color": "#bc8f8f", "rgb_color": [182, 159, 131], "class_name": "L-Shape", "color_name": "rosybrown"}
-132	Comoros Corner L Shape Sofa (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_130_KVXBfKy.jpg	80499	52324.35	35	1		{"hex_color": "#808080", "rgb_color": [137, 128, 108], "class_name": "L-Shape", "color_name": "gray"}
-159	Lounger Sofa - Single Seater	sofa_images/sofa_157_wOWbeKB.jpg	18081	12656.7	30	1		{"hex_color": "#a9a9a9", "rgb_color": [173, 162, 150], "class_name": "2-Seater", "color_name": "darkgray"}
-133	Lounger L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_131_eSv5aOY.jpg	38208	27127.68	29	1		{"hex_color": "#dcdcdc", "rgb_color": [228, 226, 225], "class_name": "L-Shape", "color_name": "gainsboro"}
-134	Napper Mini Sofa - 3 Seater (1.94m*85.09cm*85.34cm) /\n                      (76.5*33.5*33.6inch)	sofa_images/sofa_132_7exA7vg.jpg	20299	14412.29	29	1		{"hex_color": "#f5f5f5", "rgb_color": [248, 248, 248], "class_name": "2-Seater", "color_name": "whitesmoke"}
-135	Dreamer L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_133_6yRgnOn.jpg	35277	27868.83	21	1		{"hex_color": "#a9a9a9", "rgb_color": [177, 179, 174], "class_name": "L-Shape", "color_name": "darkgray"}
-136	Bahamas Sheesham Wood Sofa - Two Seater	sofa_images/sofa_134_XWihhdQ.jpg	19594	17046.78	13	1		{"hex_color": "#d3d3d3", "rgb_color": [224, 216, 205], "class_name": "2-Seater", "color_name": "lightgray"}
-137	Miami Sofa - 3+2 Seater - Omega Blue	sofa_images/sofa_135_Jl8P2wH.jpg	27999	19039.32	32	1		{"hex_color": "#a9a9a9", "rgb_color": [163, 163, 163], "class_name": "2-Seater", "color_name": "darkgray"}
-138	Havana Sofa Set (3+2) Reflection Green	sofa_images/sofa_136_xZZw6Q8.jpg	49697	38763.66	22	1		{"hex_color": "#556b2f", "rgb_color": [99, 97, 71], "class_name": "L-Shape", "color_name": "darkolivegreen"}
-139	Naples Sofa cum Bed - Three Seater, Omega Ash Grey	sofa_images/sofa_137_Gur7vJn.jpg	14998	11548.46	23	1		{"hex_color": "#2f4f4f", "rgb_color": [69, 69, 69], "class_name": "3-Seater", "color_name": "darkslategray"}
-140	Lounger Plus Sofa -Three Seater	sofa_images/sofa_138_fwjlE3x.jpg	40310	29023.2	28	1		{"hex_color": "#bc8f8f", "rgb_color": [167, 155, 142], "class_name": "Sofa-Cum-Bed", "color_name": "rosybrown"}
-141	Napper Storage L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_139_z8nC4rB.jpg	46173	33706.29	27	1		{"hex_color": "#a9a9a9", "rgb_color": [160, 154, 150], "class_name": "L-Shape", "color_name": "darkgray"}
-142	Tasmania Sofa - Two Seater	sofa_images/sofa_140_NEAnSD1.jpg	18867	14527.59	23	1		{"hex_color": "#000000", "rgb_color": [22, 23, 26], "class_name": "2-Seater", "color_name": "black"}
-143	Napper Storage L Shape Sofa Set (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_141_7Ahm8vc.jpg	46173	33706.29	27	1		{"hex_color": "#696969", "rgb_color": [100, 115, 100], "class_name": "L-Shape", "color_name": "dimgray"}
-144	Flipper Sofa cum Bed - Three Seater, Omega Ash Grey	sofa_images/sofa_142_bSuKYY0.jpg	12350	8521.5	31	1		{"hex_color": "#2f4f4f", "rgb_color": [54, 50, 46], "class_name": "3-Seater", "color_name": "darkslategray"}
-145	Tasmania Sofa - Three Seater	sofa_images/sofa_143_JGMQWfj.jpg	25001	19250.77	23	1		{"hex_color": "#000000", "rgb_color": [32, 35, 38], "class_name": "2-Seater", "color_name": "black"}
-146	Napper Sofa - Single Seater	sofa_images/sofa_144_biJfNJO.jpg	14526	12056.58	17	1		{"hex_color": "#f8f8ff", "rgb_color": [249, 250, 250], "class_name": "3-Seater", "color_name": "ghostwhite"}
-147	Napper Ottoman	sofa_images/sofa_145_ipHTaoB.jpg	6305	5107.05	19	1		{"hex_color": "#808080", "rgb_color": [117, 120, 127], "class_name": "1-Seater", "color_name": "gray"}
-148	Napper L Shape Sofa Set (3 Seater + Left Aligned Chaise)	sofa_images/sofa_146_7dvBpoQ.jpg	41665	34581.95	17	1		{"hex_color": "#a9a9a9", "rgb_color": [153, 165, 175], "class_name": "L-Shape", "color_name": "darkgray"}
-149	Napper L Shape Sofa Set (3 Seater + Left Aligned Chaise\n                      with Ottoman)	sofa_images/sofa_147_elCqoOi.jpg	46733	37853.729999999996	19	1		{"hex_color": "#dcdcdc", "rgb_color": [229, 230, 228], "class_name": "Sofa-Cum-Bed", "color_name": "gainsboro"}
-150	Napper Sofa - Three Seater	sofa_images/sofa_148_vnLetVP.jpg	25000	21000	16	1		{"hex_color": "#f5f5f5", "rgb_color": [248, 248, 248], "class_name": "2-Seater", "color_name": "whitesmoke"}
-151	Napper Ottoman	sofa_images/sofa_149_GdDM2kO.jpg	6305	5107.05	19	1		{"hex_color": "#a9a9a9", "rgb_color": [182, 167, 155], "class_name": "1-Seater", "color_name": "darkgray"}
-152	SnoozePro Sofa - Single Seater	sofa_images/sofa_150_v5ihlys.jpg	13799	10073.27	27	1		{"hex_color": "#faf0e6", "rgb_color": [240, 235, 228], "class_name": "3-Seater", "color_name": "linen"}
-153	SnoozePro Ottoman	sofa_images/sofa_151_qpWG4gV.jpg	5897	4245.84	28	1		{"hex_color": "#808080", "rgb_color": [117, 120, 127], "class_name": "1-Seater", "color_name": "gray"}
-154	SnoozePro L Shape Sofa Set (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_152_ACpg2K9.jpg	33800	25012	26	1		{"hex_color": "#fffafa", "rgb_color": [254, 250, 250], "class_name": "L-Shape", "color_name": "snow"}
-155	SnoozePro Sofa - Two Seater	sofa_images/sofa_153_gc7u2YD.jpg	15199	11095.27	27	1		{"hex_color": "#808080", "rgb_color": [160, 137, 116], "class_name": "2-Seater", "color_name": "gray"}
-156	SnoozePro L Shape Sofa Set (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_154_6EZwdtS.jpg	33800	25012	26	1		{"hex_color": "#fffafa", "rgb_color": [250, 250, 250], "class_name": "L-Shape", "color_name": "snow"}
-157	SnoozePro Sofa - Two Seater	sofa_images/sofa_155_4G7VMCw.jpg	15199	11095.27	27	1		{"hex_color": "#faf0e6", "rgb_color": [240, 236, 228], "class_name": "3-Seater", "color_name": "linen"}
-158	SnoozePro Sofa - Three Seater	sofa_images/sofa_156_D04tT8M.jpg	19600	14504	26	1		{"hex_color": "#faf0e6", "rgb_color": [240, 236, 228], "class_name": "3-Seater", "color_name": "linen"}
-160	Lounger Sofa - Two Seater	sofa_images/sofa_158_1NMpHQB.jpg	24315	16777.35	31	1		{"hex_color": "#a9a9a9", "rgb_color": [173, 162, 150], "class_name": "2-Seater", "color_name": "darkgray"}
-161	Lounger Sofa - Three Seater	sofa_images/sofa_159_9jv9i5K.jpg	30646	21758.66	29	1		{"hex_color": "#a9a9a9", "rgb_color": [173, 162, 150], "class_name": "2-Seater", "color_name": "darkgray"}
-162	SnoozePro Sofa - Three Seater	sofa_images/sofa_160_DiODrcG.jpg	21399	15835.26	26	1		{"hex_color": "#f5f5dc", "rgb_color": [237, 234, 224], "class_name": "3-Seater", "color_name": "beige"}
-163	Napper Sofa - Single Seater	sofa_images/sofa_161_cTkh6hq.jpg	14189	11776.869999999999	17	1		{"hex_color": "#ffffff", "rgb_color": [254, 254, 254], "class_name": "3-Seater", "color_name": "white"}
-164	Napper Sofa - Two Seater	sofa_images/sofa_162_4d5IPML.jpg	21057	17477.31	17	1		{"hex_color": "#ffffff", "rgb_color": [254, 254, 254], "class_name": "3-Seater", "color_name": "white"}
-165	Napper Sofa - Three Seater	sofa_images/sofa_163_sxQ8pdP.jpg	27814	23363.760000000002	16	1		{"hex_color": "#f8f8ff", "rgb_color": [248, 249, 250], "class_name": "3-Seater", "color_name": "ghostwhite"}
-166	Napper Sofa - Three Seater	sofa_images/sofa_164_6fSFiaf.jpg	27814	23363.760000000002	16	1		{"hex_color": "#ffffff", "rgb_color": [254, 254, 254], "class_name": "3-Seater", "color_name": "white"}
-167	Stargazer Rocking & Revolving Recliner - 1 Seater -\n                      Amber	sofa_images/sofa_165_w1qYaWD.jpg	22500	16875	25	1		{"hex_color": "#a0522d", "rgb_color": [159, 86, 44], "class_name": "1-Seater", "color_name": "sienna"}
-168	SnoozePro Ottoman	sofa_images/sofa_166_WaO9Cqt.jpg	6599	4751.28	28	1		{"hex_color": "#ffffff", "rgb_color": [255, 255, 255], "class_name": "1-Seater", "color_name": "white"}
-169	Napper Ottoman	sofa_images/sofa_167_gg6uZXv.jpg	7094	5746.14	19	1		{"hex_color": "#ffffff", "rgb_color": [255, 255, 255], "class_name": "1-Seater", "color_name": "white"}
-170	Napper Ottoman	sofa_images/sofa_168_WKSocYF.jpg	7094	5746.14	19	1		{"hex_color": "#ffffff", "rgb_color": [255, 255, 255], "class_name": "1-Seater", "color_name": "white"}
-171	Napper L Shape Sofa Set (3 Seater + Left Aligned Chaise)	sofa_images/sofa_169_VR70R8h.jpg	46279	38874.36	16	1		{"hex_color": "#d3d3d3", "rgb_color": [204, 205, 205], "class_name": "Sofa-Cum-Bed", "color_name": "lightgray"}
-172	Lounger Sofa - Two Seater	sofa_images/sofa_170_IW3alRH.jpg	21758	15230.6	30	1		{"hex_color": "#dcdcdc", "rgb_color": [230, 233, 218], "class_name": "2-Seater", "color_name": "gainsboro"}
-173	Lounger Sofa Set (3+2+1)	sofa_images/sofa_171_hi6aVYf.jpg	64874	45411.8	30	1		{"hex_color": "#dcdcdc", "rgb_color": [229, 233, 217], "class_name": "2-Seater", "color_name": "gainsboro"}
-174	Lounger Sofa - Three Seater	sofa_images/sofa_172_6wnh61V.jpg	27585	19585.35	29	1		{"hex_color": "#dcdcdc", "rgb_color": [230, 233, 217], "class_name": "2-Seater", "color_name": "gainsboro"}
-175	Lounger Sofa - Two Seater	sofa_images/sofa_173_Z3nTgmT.jpg	22577	15578.130000000001	31	1		{"hex_color": "#f5f5dc", "rgb_color": [231, 234, 222], "class_name": "2-Seater", "color_name": "beige"}
-176	Lounger Sofa - Three Seater	sofa_images/sofa_174_0QD78B9.jpg	28499	20234.29	29	1		{"hex_color": "#f5f5dc", "rgb_color": [231, 234, 222], "class_name": "2-Seater", "color_name": "beige"}
-177	Lounger Sofa Set (3+2)	sofa_images/sofa_175_DnVVnPJ.jpg	50567	34891.229999999996	31	1		{"hex_color": "#f5f5dc", "rgb_color": [231, 234, 222], "class_name": "2-Seater", "color_name": "beige"}
-178	Lounger Sofa - Two Seater	sofa_images/sofa_176_67XgrfF.jpg	22577	15578.130000000001	31	1		{"hex_color": "#a9a9a9", "rgb_color": [185, 181, 171], "class_name": "2-Seater", "color_name": "darkgray"}
-179	Lounger Sofa Set (3+2)	sofa_images/sofa_177_L0XBfpc.jpg	50567	34891.229999999996	31	1		{"hex_color": "#a9a9a9", "rgb_color": [185, 182, 171], "class_name": "2-Seater", "color_name": "darkgray"}
-180	Stargazer Recliner - 1 Seater - Amber	sofa_images/sofa_178_i2xmJZF.jpg	18500	13690	26	1		{"hex_color": "#deb887", "rgb_color": [225, 179, 142], "class_name": "1-Seater", "color_name": "burlywood"}
-181	Amoeba Sofa cum Bed	sofa_images/sofa_179_vCiNhF3.jpg	20900	15048	28	1		{"hex_color": "#808080", "rgb_color": [150, 147, 133], "class_name": "1-Seater", "color_name": "gray"}
-182	Amoeba Sofa cum Bed	sofa_images/sofa_180_4Jg4VlU.jpg	20900	15048	28	1		{"hex_color": "#a9a9a9", "rgb_color": [171, 162, 151], "class_name": "2-Seater", "color_name": "darkgray"}
-183	Amoeba Sofa cum Bed	sofa_images/sofa_181_HObnrwX.jpg	20900	15048	28	1		{"hex_color": "#2f4f4f", "rgb_color": [79, 74, 68], "class_name": "2-Seater", "color_name": "darkslategray"}
-184	Dreamer Sofa - Single Seater	sofa_images/sofa_182_rOvNxet.jpg	15830	12347.4	22	1		{"hex_color": "#2f4f4f", "rgb_color": [18, 91, 99], "class_name": "1-Seater", "color_name": "darkslategray"}
-185	Dreamer Sofa - Two Seater	sofa_images/sofa_183_IO2LBhV.jpg	18381	14337.18	22	1		{"hex_color": "#a9a9a9", "rgb_color": [174, 166, 158], "class_name": "2-Seater", "color_name": "darkgray"}
-186	Dreamer Sofa - Three Seater	sofa_images/sofa_184_vbDVJLN.jpg	25497	20142.63	21	1		{"hex_color": "#a9a9a9", "rgb_color": [168, 161, 152], "class_name": "2-Seater", "color_name": "darkgray"}
-187	Dreamer Sofa - Three Seater	sofa_images/sofa_185_jhfqzzz.jpg	25497	20142.63	21	1		{"hex_color": "#696969", "rgb_color": [107, 106, 100], "class_name": "2-Seater", "color_name": "dimgray"}
-188	Amoeba Sofa cum Bed	sofa_images/sofa_186_16bzItg.jpg	20900	15048	28	1		{"hex_color": "#a52a2a", "rgb_color": [182, 55, 58], "class_name": "2-Seater", "color_name": "brown"}
-189	Miami Sofa - 1 Seater - Omega Blue	sofa_images/sofa_187_eAX9NRN.jpg	9999	6899.3099999999995	31	1		{"hex_color": "#a9a9a9", "rgb_color": [163, 163, 163], "class_name": "2-Seater", "color_name": "darkgray"}
-190	Miami Sofa - 3+2+1 Seater - Omega Blue	sofa_images/sofa_188_jIuVS53.jpg	37897	25769.96	32	1		{"hex_color": "#a9a9a9", "rgb_color": [163, 163, 163], "class_name": "2-Seater", "color_name": "darkgray"}
-191	Miami Sofa - 3 Seater - Omega Grey	sofa_images/sofa_189_FYtzkSX.jpg	15200	10336	32	1		{"hex_color": "#696969", "rgb_color": [89, 88, 84], "class_name": "2-Seater", "color_name": "dimgray"}
-192	Miami Sofa - 2 Seater - Chrome Yellow	sofa_images/sofa_190_MLepQPi.jpg	14599	9927.32	32	1		{"hex_color": "#daa520", "rgb_color": [220, 153, 2], "class_name": "2-Seater", "color_name": "goldenrod"}
-193	Miami Sofa - 3 Seater - Chrome Yellow	sofa_images/sofa_191_OfdQY7O.jpg	17197	11693.96	32	1		{"hex_color": "#daa520", "rgb_color": [220, 154, 2], "class_name": "2-Seater", "color_name": "goldenrod"}
-194	Miami Sofa - 3 Seater - Ash Grey	sofa_images/sofa_192_pWcZqAT.jpg	17197	11693.96	32	1		{"hex_color": "#2f4f4f", "rgb_color": [75, 76, 73], "class_name": "2-Seater", "color_name": "darkslategray"}
-195	Dreamer Sofa Set (3+2+1)	sofa_images/sofa_193_JcLO8rC.jpg	65770	51300.6	22	1		{"hex_color": "#20b2aa", "rgb_color": [57, 183, 177], "class_name": "L-Shape", "color_name": "lightseagreen"}
-196	Stargazer Recliner - 1 Seater - Dark Fantasy	sofa_images/sofa_194_t2hlAJU.jpg	18500	13690	26	1		{"hex_color": "#2f4f4f", "rgb_color": [68, 53, 48], "class_name": "1-Seater", "color_name": "darkslategray"}
-197	Hawaii Sofa - 3 Seater - Sky Green	sofa_images/sofa_195_ukuwnRB.jpg	14399	10655.26	26	1		{"hex_color": "#ffffff", "rgb_color": [254, 254, 254], "class_name": "2-Seater", "color_name": "white"}
-198	Stargazer Recliner - Rocking & Revolving	sofa_images/sofa_196_UjH1y3w.jpg	22500	16875	25	1		{"hex_color": "#696969", "rgb_color": [102, 81, 74], "class_name": "1-Seater", "color_name": "dimgray"}
-199	Muser Recliner - Electric	sofa_images/sofa_197_AbnQiZ4.jpg	25001	13500.54	46	1		{"hex_color": "#a9a9a9", "rgb_color": [169, 168, 154], "class_name": "1-Seater", "color_name": "darkgray"}
-200	Stargazer Recliner - 1 Seater - Marble Grey	sofa_images/sofa_198_auMZHkm.jpg	18500	13690	26	1		{"hex_color": "#2f4f4f", "rgb_color": [62, 62, 62], "class_name": "1-Seater", "color_name": "darkslategray"}
-201	Stargazer Recliner - 1 Seater - Sangria	sofa_images/sofa_199_kUS5Pew.jpg	18500	13690	26	1		{"hex_color": "#2f4f4f", "rgb_color": [79, 43, 44], "class_name": "1-Seater", "color_name": "darkslategray"}
-202	Stargazer Recliner - 1 Seater - Tan	sofa_images/sofa_200_6j2ZBhV.jpg	18500	13690	26	1		{"hex_color": "#8b4513", "rgb_color": [128, 59, 43], "class_name": "1-Seater", "color_name": "saddlebrown"}
+27	Manila Sheesham Wood Sofa - Three Seater	sofa_images/sofa_25.jpg	33414	27399.48	18	1		{"hex_color": "#556b2f", "rgb_color": [90, 91, 60], "sofa_type": "3-Seater", "color_name": "darkolivegreen"}
+28	Maseru Sofa - Three Seater	sofa_images/sofa_26.jpg	27999	18199.35	35	1		{"hex_color": "#f5deb3", "rgb_color": [230, 212, 191], "sofa_type": "3-Seater", "color_name": "wheat"}
+7	Amoeba Sofa cum Bed	sofa_images/sofa_5.jpg	22157	15953.04	28	1		{"hex_color": "#2f4f4f", "rgb_color": [42, 63, 96], "sofa_type": "2-Seater", "color_name": "darkslategray"}
+8	Barcelona L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_6.jpg	40407	35558.16	12	1		{"hex_color": "#000000", "rgb_color": [25, 24, 21], "sofa_type": "L-Shape", "color_name": "black"}
+10	Belize L Shape Sofa Set (3 Seater + Left Aligned Chaise)	sofa_images/sofa_8.jpg	32694	27789.9	15	1		{"hex_color": "#2f4f4f", "rgb_color": [68, 75, 85], "sofa_type": "L-Shape", "color_name": "darkslategray"}
+22	Tasmania Sofa - Two Seater	sofa_images/sofa_20.jpg	18867	14527.59	23	1		{"hex_color": "#000000", "rgb_color": [6, 19, 35], "sofa_type": "2-Seater", "color_name": "black"}
+24	Lounger Plus Sofa set (3+2) Seater	sofa_images/sofa_22.jpg	72545	52232.4	28	1		{"hex_color": "#2f4f4f", "rgb_color": [28, 44, 54], "sofa_type": "2-Seater", "color_name": "darkslategray"}
+25	Snoozepro Plus L Shape Sofa Set (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_23.jpg	47896	34006.16	29	1		{"hex_color": "#696969", "rgb_color": [108, 119, 114], "sofa_type": "L-Shape", "color_name": "dimgray"}
+26	Brunei Love seat Sofa - 2 Seater	sofa_images/sofa_24.jpg	18999	12349.35	35	1		{"hex_color": "#c0c0c0", "rgb_color": [199, 201, 202], "sofa_type": "2-Seater", "color_name": "silver"}
+3	Flipper Sofa Cum Bed - Three Seater (6'x5') Feet- WarpKnit\n                      Grey	sofa_images/sofa_1.jpg	8999	6209.3099999999995	31	1		{"hex_color": "#2f4f4f", "rgb_color": [67, 65, 63], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+4	Solatio Sofa - Three Seater	sofa_images/sofa_2.jpg	11998	9358.44	22	1		{"hex_color": "#191970", "rgb_color": [21, 47, 80], "sofa_type": "3-Seater", "color_name": "midnightblue"}
+5	Solomon Sofa - Three Seater	sofa_images/sofa_3.jpg	32999	21449.35	35	1		{"hex_color": "#a9a9a9", "rgb_color": [193, 182, 163], "sofa_type": "3-Seater", "color_name": "darkgray"}
+6	Napper Sofa - Three Seater	sofa_images/sofa_4.jpg	25000	21000	16	1		{"hex_color": "#000000", "rgb_color": [22, 19, 18], "sofa_type": "3-Seater", "color_name": "black"}
+38	Havana Sofa - Two Seater Cobalt Blue	sofa_images/sofa_36.jpg	19500	15210	22	1		{"hex_color": "#2f4f4f", "rgb_color": [38, 56, 77], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+39	Naples Sofa cum Bed - Three Seater, Omega Blue	sofa_images/sofa_37.jpg	14998	11548.46	23	1		{"hex_color": "#696969", "rgb_color": [103, 111, 126], "sofa_type": "3-Seater", "color_name": "dimgray"}
+40	Fyras 3 Seater Solid wood Sofa	sofa_images/sofa_38.jpg	22799	13679.4	40	1		{"hex_color": "#2f4f4f", "rgb_color": [82, 72, 66], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+43	Divo 3 Seater Solid wood Sofa	sofa_images/sofa_41.jpg	31799	19079.4	40	1		{"hex_color": "#c0c0c0", "rgb_color": [197, 181, 170], "sofa_type": "3-Seater", "color_name": "silver"}
+44	Haverford Sofa - Three Seater	sofa_images/sofa_42.jpg	36397	21474.23	41	1		{"hex_color": "#000000", "rgb_color": [25, 31, 40], "sofa_type": "3-Seater", "color_name": "black"}
+47	Solomon Sofa Set (3+2) Seater	sofa_images/sofa_45.jpg	58498	38023.7	35	1		{"hex_color": "#8b4513", "rgb_color": [122, 62, 33], "sofa_type": "3-Seater", "color_name": "saddlebrown"}
+41	Stefano Sofa - Two Seater	sofa_images/sofa_39.jpg	32999	19799.4	40	1		{"hex_color": "#2f4f4f", "rgb_color": [80, 68, 62], "sofa_type": "2-Seater", "color_name": "darkslategray"}
+42	Catania 1 Seater Solid wood Sofa	sofa_images/sofa_40.jpg	16799	10079.4	40	1		{"hex_color": "#008080", "rgb_color": [34, 120, 128], "sofa_type": "1-Seater", "color_name": "teal"}
+49	Amoeba Sofa cum Bed	sofa_images/sofa_47.jpg	20900	15048	28	1		{"hex_color": "#808080", "rgb_color": [120, 128, 121], "sofa_type": "2-Seater", "color_name": "gray"}
+53	Skiver L Shape 6 Seater Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_51.jpg	26000	17680	32	1		{"hex_color": "#000000", "rgb_color": [35, 27, 21], "sofa_type": "L-Shape", "color_name": "black"}
+54	Azores Sofa - Two Seater	sofa_images/sofa_52.jpg	27999	18199.35	35	1		{"hex_color": "#a0522d", "rgb_color": [153, 83, 47], "sofa_type": "2-Seater", "color_name": "sienna"}
+45	Flipper Sofa cum Bed - Three Seater, Omega Blue	sofa_images/sofa_43.jpg	12350	8521.5	31	1		{"hex_color": "#dcdcdc", "rgb_color": [215, 216, 223], "sofa_type": "3-Seater", "color_name": "gainsboro"}
+46	Solatio Sofa - Three Seater	sofa_images/sofa_44.jpg	11998	9358.44	22	1		{"hex_color": "#2f4f4f", "rgb_color": [40, 40, 53], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+48	Napper L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_46.jpg	46279	38874.36	16	1		{"hex_color": "#2f4f4f", "rgb_color": [43, 43, 43], "sofa_type": "L-Shape", "color_name": "darkslategray"}
+29	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Left Aligned Chaise)	sofa_images/sofa_27.jpg	42999	27949.35	35	1		{"hex_color": "#696969", "rgb_color": [81, 83, 95], "sofa_type": "3-Seater", "color_name": "dimgray"}
+50	Barcelona Sofa - Three Seater	sofa_images/sofa_48.jpg	30067	26458.96	12	1		{"hex_color": "#2f4f4f", "rgb_color": [30, 53, 83], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+30	Magnus Sofa - Three Seater	sofa_images/sofa_28.jpg	39999	25999.35	35	1		{"hex_color": "#556b2f", "rgb_color": [111, 78, 57], "sofa_type": "3-Seater", "color_name": "darkolivegreen"}
+66	Lounger Plus Sofa - (3 Seater +Left Aligned Chaise)	sofa_images/sofa_64.jpg	59123	42568.56	28	1		{"hex_color": "#696969", "rgb_color": [89, 89, 89], "sofa_type": "L-Shape", "color_name": "dimgray"}
+59	Napper Plus Sofa -Three Seater Vogue Deep Ocean	sofa_images/sofa_57.jpg	37167	28618.59	23	1		{"hex_color": "#2f4f4f", "rgb_color": [33, 47, 57], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+68	Manila Sheesham Wood Sofa - Three Seater	sofa_images/sofa_66.jpg	33414	27399.48	18	1		{"hex_color": "#bc8f8f", "rgb_color": [181, 160, 140], "sofa_type": "3-Seater", "color_name": "rosybrown"}
+61	Komodo L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_59.jpg	54999	35749.35	35	1		{"hex_color": "#c0c0c0", "rgb_color": [193, 184, 166], "sofa_type": "L-Shape", "color_name": "silver"}
+69	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Left Aligned Chaise)	sofa_images/sofa_67.jpg	42999	27949.35	35	1		{"hex_color": "#a9a9a9", "rgb_color": [172, 162, 152], "sofa_type": "Sofa-Cum-Bed", "color_name": "darkgray"}
+70	Magnus Sofa - Three Seater	sofa_images/sofa_68.jpg	39999	25999.35	35	1		{"hex_color": "#bc8f8f", "rgb_color": [165, 139, 111], "sofa_type": "3-Seater", "color_name": "rosybrown"}
+71	Comoros Corner L Shape Sofa (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_69.jpg	84299	54794.35	35	1		{"hex_color": "#000000", "rgb_color": [5, 6, 6], "sofa_type": "L-Shape", "color_name": "black"}
+74	Napper Mini Sofa - 3 Seater (1.94m*85.09cm*85.34cm) /\n                      (76.5*33.5*33.6inch)	sofa_images/sofa_72.jpg	20299	14412.29	29	1		{"hex_color": "#000000", "rgb_color": [40, 34, 30], "sofa_type": "3-Seater", "color_name": "black"}
+67	Snoozepro Plus L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_65.jpg	47896	34006.16	29	1		{"hex_color": "#696969", "rgb_color": [104, 83, 85], "sofa_type": "L-Shape", "color_name": "dimgray"}
+72	Lounger L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_70.jpg	38208	27127.68	29	1		{"hex_color": "#000000", "rgb_color": [23, 28, 35], "sofa_type": "L-Shape", "color_name": "black"}
+73	Haverford Sofa - Two Seater	sofa_images/sofa_71.jpg	27899	16739.4	40	1		{"hex_color": "#000000", "rgb_color": [27, 30, 36], "sofa_type": "2-Seater", "color_name": "black"}
+80	Fyras 2 Seater Solid wood Sofa	sofa_images/sofa_78.jpg	18599	11159.4	40	1		{"hex_color": "#2f4f4f", "rgb_color": [77, 66, 59], "sofa_type": "2-Seater", "color_name": "darkslategray"}
+75	Dreamer Sofa - Three Seater	sofa_images/sofa_73.jpg	25497	20142.63	21	1		{"hex_color": "#696969", "rgb_color": [110, 122, 107], "sofa_type": "3-Seater", "color_name": "dimgray"}
+76	Bahamas Sheesham Wood Sofa Set - (3+2)	sofa_images/sofa_74.jpg	44870	39036.9	13	1		{"hex_color": "#556b2f", "rgb_color": [98, 77, 50], "sofa_type": "3-Seater", "color_name": "darkolivegreen"}
+56	Tahiti Sofa - Three Seater	sofa_images/sofa_54.jpg	37999	24699.35	35	1		{"hex_color": "#c0c0c0", "rgb_color": [200, 185, 174], "sofa_type": "3-Seater", "color_name": "silver"}
+77	Miami Sofa - 3 Seater - Omega Blue	sofa_images/sofa_75.jpg	15200	10336	32	1		{"hex_color": "#2f4f4f", "rgb_color": [56, 62, 71], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+57	Belize Plus Sofa - Three Seater	sofa_images/sofa_55.jpg	32998	25078.48	24	1		{"hex_color": "#a9a9a9", "rgb_color": [133, 172, 178], "sofa_type": "3-Seater", "color_name": "darkgray"}
+87	Skiver L Shape 6 Seater Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_85.jpg	26000	17680	32	1		{"hex_color": "#2f4f4f", "rgb_color": [37, 67, 106], "sofa_type": "L-Shape", "color_name": "darkslategray"}
+94	SnoozePro Sofa Set	sofa_images/sofa_92.jpg	36899	27305.260000000002	26	1		{"hex_color": "#2f4f4f", "rgb_color": [25, 58, 53], "sofa_type": "L-Shape", "color_name": "darkslategray"}
+82	Solomon Sofa - Single Seater	sofa_images/sofa_80.jpg	16999	11049.35	35	1		{"hex_color": "#d2b48c", "rgb_color": [193, 179, 154], "sofa_type": "1-Seater", "color_name": "tan"}
+81	Solatio Sofa - Three Seater	sofa_images/sofa_79.jpg	11998	9358.44	22	1		{"hex_color": "#000000", "rgb_color": [51, 35, 13], "sofa_type": "3-Seater", "color_name": "black"}
+84	Amoeba Sofa cum Bed	sofa_images/sofa_82.jpg	22157	15953.04	28	1		{"hex_color": "#2f4f4f", "rgb_color": [23, 84, 95], "sofa_type": "2-Seater", "color_name": "darkslategray"}
+83	Napper Sofa Set (3+2)	sofa_images/sofa_81.jpg	47073	38599.86	18	1		{"hex_color": "#808080", "rgb_color": [138, 122, 112], "sofa_type": "3-Seater", "color_name": "gray"}
+114	Amoeba Sofa cum Bed	sofa_images/sofa_112.jpg	22157	15953.04	28	1		{"hex_color": "#2f4f4f", "rgb_color": [57, 57, 57], "sofa_type": "2-Seater", "color_name": "darkslategray"}
+116	Belize L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_114.jpg	34898	29663.3	15	1		{"hex_color": "#2f4f4f", "rgb_color": [32, 51, 75], "sofa_type": "L-Shape", "color_name": "darkslategray"}
+126	Tasmania Sofa - Two Seater	sofa_images/sofa_124.jpg	18867	14527.59	23	1		{"hex_color": "#556b2f", "rgb_color": [83, 71, 60], "sofa_type": "2-Seater", "color_name": "darkolivegreen"}
+128	Lounger Plus Sofa set (3+2) Seater	sofa_images/sofa_126.jpg	67234	48408.479999999996	28	1		{"hex_color": "#696969", "rgb_color": [123, 89, 83], "sofa_type": "2-Seater", "color_name": "dimgray"}
+129	SnoozePro Plus Sofa -Two Seater Reflection Rose Brown	sofa_images/sofa_127.jpg	20999	14699.3	30	1		{"hex_color": "#808080", "rgb_color": [162, 123, 127], "sofa_type": "2-Seater", "color_name": "gray"}
+132	Comoros Corner L Shape Sofa (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_130.jpg	80499	52324.35	35	1		{"hex_color": "#808080", "rgb_color": [157, 123, 86], "sofa_type": "L-Shape", "color_name": "gray"}
+108	Miami Sofa - 3 Seater - Omega Pearl	sofa_images/sofa_106.jpg	15200	10336	32	1		{"hex_color": "#a9a9a9", "rgb_color": [170, 162, 157], "sofa_type": "3-Seater", "color_name": "darkgray"}
+109	Havana Sofa - Three Seater Cobalt Blue	sofa_images/sofa_107.jpg	26199	20435.22	22	1		{"hex_color": "#000000", "rgb_color": [20, 27, 38], "sofa_type": "3-Seater", "color_name": "black"}
+142	Tasmania Sofa - Two Seater	sofa_images/sofa_140.jpg	18867	14527.59	23	1		{"hex_color": "#000000", "rgb_color": [20, 21, 23], "sofa_type": "2-Seater", "color_name": "black"}
+147	Napper Ottoman	sofa_images/sofa_145.jpg	6305	5107.05	19	1		{"hex_color": "#808080", "rgb_color": [115, 119, 127], "sofa_type": "1-Seater", "color_name": "gray"}
+151	Napper Ottoman	sofa_images/sofa_149.jpg	6305	5107.05	19	1		{"hex_color": "#a9a9a9", "rgb_color": [183, 167, 155], "sofa_type": "1-Seater", "color_name": "darkgray"}
+153	SnoozePro Ottoman	sofa_images/sofa_151.jpg	5897	4245.84	28	1		{"hex_color": "#808080", "rgb_color": [115, 119, 127], "sofa_type": "1-Seater", "color_name": "gray"}
+155	SnoozePro Sofa - Two Seater	sofa_images/sofa_153.jpg	15199	11095.27	27	1		{"hex_color": "#a9a9a9", "rgb_color": [188, 174, 159], "sofa_type": "2-Seater", "color_name": "darkgray"}
+156	SnoozePro L Shape Sofa Set (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_154.jpg	33800	25012	26	1		{"hex_color": "#808080", "rgb_color": [140, 118, 108], "sofa_type": "L-Shape", "color_name": "gray"}
+133	Lounger L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_131.jpg	38208	27127.68	29	1		{"hex_color": "#000000", "rgb_color": [23, 28, 35], "sofa_type": "L-Shape", "color_name": "black"}
+135	Dreamer L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_133.jpg	35277	27868.83	21	1		{"hex_color": "#000000", "rgb_color": [5, 6, 8], "sofa_type": "L-Shape", "color_name": "black"}
+136	Bahamas Sheesham Wood Sofa - Two Seater	sofa_images/sofa_134.jpg	19594	17046.78	13	1		{"hex_color": "#556b2f", "rgb_color": [105, 78, 47], "sofa_type": "2-Seater", "color_name": "darkolivegreen"}
+137	Miami Sofa - 3+2 Seater - Omega Blue	sofa_images/sofa_135.jpg	27999	19039.32	32	1		{"hex_color": "#2f4f4f", "rgb_color": [55, 61, 70], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+138	Havana Sofa Set (3+2) Reflection Green	sofa_images/sofa_136.jpg	49697	38763.66	22	1		{"hex_color": "#696969", "rgb_color": [109, 107, 81], "sofa_type": "3-Seater", "color_name": "dimgray"}
+167	Stargazer Rocking & Revolving Recliner - 1 Seater -\n                      Amber	sofa_images/sofa_165.jpg	22500	16875	25	1		{"hex_color": "#a0522d", "rgb_color": [162, 87, 41], "sofa_type": "1-Seater", "color_name": "sienna"}
+180	Stargazer Recliner - 1 Seater - Amber	sofa_images/sofa_178.jpg	18500	13690	26	1		{"hex_color": "#8b4513", "rgb_color": [112, 51, 8], "sofa_type": "1-Seater", "color_name": "saddlebrown"}
+181	Amoeba Sofa cum Bed	sofa_images/sofa_179.jpg	20900	15048	28	1		{"hex_color": "#000000", "rgb_color": [7, 7, 8], "sofa_type": "2-Seater", "color_name": "black"}
+182	Amoeba Sofa cum Bed	sofa_images/sofa_180.jpg	20900	15048	28	1		{"hex_color": "#a9a9a9", "rgb_color": [170, 160, 151], "sofa_type": "2-Seater", "color_name": "darkgray"}
+183	Amoeba Sofa cum Bed	sofa_images/sofa_181.jpg	20900	15048	28	1		{"hex_color": "#2f4f4f", "rgb_color": [79, 74, 68], "sofa_type": "2-Seater", "color_name": "darkslategray"}
+184	Dreamer Sofa - Single Seater	sofa_images/sofa_182.jpg	15830	12347.4	22	1		{"hex_color": "#2f4f4f", "rgb_color": [9, 88, 92], "sofa_type": "1-Seater", "color_name": "darkslategray"}
+185	Dreamer Sofa - Two Seater	sofa_images/sofa_183.jpg	18381	14337.18	22	1		{"hex_color": "#a9a9a9", "rgb_color": [177, 169, 160], "sofa_type": "2-Seater", "color_name": "darkgray"}
+88	Azores Sofa Set (3+2+1) Seater	sofa_images/sofa_86.jpg	80996	52647.4	35	1		{"hex_color": "#556b2f", "rgb_color": [92, 75, 59], "sofa_type": "3-Seater", "color_name": "darkolivegreen"}
+89	Lumara Sofa Set - (3+2) Seater	sofa_images/sofa_87.jpg	46498	30223.7	35	1		{"hex_color": "#bc8f8f", "rgb_color": [160, 148, 139], "sofa_type": "3-Seater", "color_name": "rosybrown"}
+186	Dreamer Sofa - Three Seater	sofa_images/sofa_184.jpg	25497	20142.63	21	1		{"hex_color": "#a9a9a9", "rgb_color": [177, 168, 159], "sofa_type": "3-Seater", "color_name": "darkgray"}
+187	Dreamer Sofa - Three Seater	sofa_images/sofa_185.jpg	25497	20142.63	21	1		{"hex_color": "#696969", "rgb_color": [112, 110, 105], "sofa_type": "3-Seater", "color_name": "dimgray"}
+188	Amoeba Sofa cum Bed	sofa_images/sofa_186.jpg	20900	15048	28	1		{"hex_color": "#a52a2a", "rgb_color": [190, 62, 65], "sofa_type": "2-Seater", "color_name": "brown"}
+199	Muser Recliner - Electric	sofa_images/sofa_197.jpg	25001	13500.54	46	1		{"hex_color": "#bdb76b", "rgb_color": [191, 166, 122], "sofa_type": "1-Seater", "color_name": "darkkhaki"}
+200	Stargazer Recliner - 1 Seater - Marble Grey	sofa_images/sofa_198.jpg	18500	13690	26	1		{"hex_color": "#2f4f4f", "rgb_color": [70, 69, 70], "sofa_type": "1-Seater", "color_name": "darkslategray"}
+192	Miami Sofa - 2 Seater - Chrome Yellow	sofa_images/sofa_190.jpg	14599	9927.32	32	1		{"hex_color": "#daa520", "rgb_color": [221, 155, 2], "sofa_type": "2-Seater", "color_name": "goldenrod"}
+90	Tahiti Sofa seat(3+2) Seater	sofa_images/sofa_88.jpg	69998	45498.7	35	1		{"hex_color": "#a0522d", "rgb_color": [138, 77, 43], "sofa_type": "3-Seater", "color_name": "sienna"}
+91	Belize Plus L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_89.jpg	46117	38738.28	16	1		{"hex_color": "#696969", "rgb_color": [115, 66, 77], "sofa_type": "L-Shape", "color_name": "dimgray"}
+201	Stargazer Recliner - 1 Seater - Sangria	sofa_images/sofa_199.jpg	18500	13690	26	1		{"hex_color": "#2f4f4f", "rgb_color": [86, 48, 50], "sofa_type": "1-Seater", "color_name": "darkslategray"}
+9	Naxos Sofa - Three Seater	sofa_images/sofa_7.jpg	45499	29574.35	35	1		{"hex_color": "#2f4f4f", "rgb_color": [51, 66, 47], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+11	Skiver L Shape 6 Seater Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_9.jpg	26000	17680	32	1		{"hex_color": "#000000", "rgb_color": [20, 19, 22], "sofa_type": "L-Shape", "color_name": "black"}
+12	Azores Sofa - Three Seater	sofa_images/sofa_10.jpg	33999	22099.35	35	1		{"hex_color": "#c0c0c0", "rgb_color": [202, 192, 171], "sofa_type": "3-Seater", "color_name": "silver"}
+13	Lumara Sofa -Three Seater	sofa_images/sofa_11.jpg	25999	16899.35	35	1		{"hex_color": "#696969", "rgb_color": [119, 93, 82], "sofa_type": "3-Seater", "color_name": "dimgray"}
+14	Tahiti Sofa - Three Seater	sofa_images/sofa_12.jpg	37999	24699.35	35	1		{"hex_color": "#a0522d", "rgb_color": [171, 104, 64], "sofa_type": "3-Seater", "color_name": "sienna"}
+15	Belize Plus L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_13.jpg	49449	42526.14	14	1		{"hex_color": "#2f4f4f", "rgb_color": [35, 51, 66], "sofa_type": "L-Shape", "color_name": "darkslategray"}
+195	Dreamer Sofa Set (3+2+1)	sofa_images/sofa_193.jpg	65770	51300.6	22	1		{"hex_color": "#48d1cc", "rgb_color": [64, 189, 183], "sofa_type": "3-Seater", "color_name": "mediumturquoise"}
+92	Dreamer Plus L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_90.jpg	51678	43409.520000000004	16	1		{"hex_color": "#a9a9a9", "rgb_color": [179, 173, 168], "sofa_type": "L-Shape", "color_name": "darkgray"}
+197	Hawaii Sofa - 3 Seater - Sky Green	sofa_images/sofa_195.jpg	14399	10655.26	26	1		{"hex_color": "#4682b4", "rgb_color": [45, 137, 143], "sofa_type": "2-Seater", "color_name": "steelblue"}
+93	Napper Plus Sofa -Three Seater Reflection Mocha Brown	sofa_images/sofa_91.jpg	33998	26178.46	23	1		{"hex_color": "#bc8f8f", "rgb_color": [164, 138, 119], "sofa_type": "3-Seater", "color_name": "rosybrown"}
+16	Dreamer Plus Sofa -Three Seater	sofa_images/sofa_14.jpg	35498	26268.52	26	1		{"hex_color": "#696969", "rgb_color": [143, 84, 92], "sofa_type": "3-Seater", "color_name": "dimgray"}
+17	Napper Plus Sofa -Three Seater Reflection Rose Brown	sofa_images/sofa_15.jpg	33998	26178.46	23	1		{"hex_color": "#bc8f8f", "rgb_color": [167, 128, 129], "sofa_type": "3-Seater", "color_name": "rosybrown"}
+202	Stargazer Recliner - 1 Seater - Tan	sofa_images/sofa_200.jpg	18500	13690	26	1		{"hex_color": "#a0522d", "rgb_color": [137, 65, 48], "sofa_type": "1-Seater", "color_name": "sienna"}
+193	Miami Sofa - 3 Seater - Chrome Yellow	sofa_images/sofa_191.jpg	17197	11693.96	32	1		{"hex_color": "#daa520", "rgb_color": [221, 154, 2], "sofa_type": "3-Seater", "color_name": "goldenrod"}
+18	Tuvalu Sofa without Motion - Three Seater	sofa_images/sofa_16.jpg	39999	25999.35	35	1		{"hex_color": "#696969", "rgb_color": [109, 97, 86], "sofa_type": "3-Seater", "color_name": "dimgray"}
+19	Komodo Sofa - Three Seater	sofa_images/sofa_17.jpg	37499	24374.35	35	1		{"hex_color": "#c0c0c0", "rgb_color": [204, 193, 171], "sofa_type": "3-Seater", "color_name": "silver"}
+20	SnoozePro Sofa - Three Seater	sofa_images/sofa_18.jpg	19600	14504	26	1		{"hex_color": "#696969", "rgb_color": [131, 108, 88], "sofa_type": "3-Seater", "color_name": "dimgray"}
+21	Sicily Sofa - Three Seater	sofa_images/sofa_19.jpg	16999	13769.19	19	1		{"hex_color": "#191970", "rgb_color": [15, 36, 58], "sofa_type": "3-Seater", "color_name": "midnightblue"}
+23	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Right Aligned Chaise)	sofa_images/sofa_21.jpg	42999	27949.35	35	1		{"hex_color": "#696969", "rgb_color": [90, 87, 86], "sofa_type": "3-Seater", "color_name": "dimgray"}
+31	Comoros Corner L Shape Sofa (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_29.jpg	84299	54794.35	35	1		{"hex_color": "#000000", "rgb_color": [5, 4, 3], "sofa_type": "L-Shape", "color_name": "black"}
+32	Lounger Sofa - Three Seater	sofa_images/sofa_30.jpg	28499	20234.29	29	1		{"hex_color": "#a9a9a9", "rgb_color": [184, 177, 168], "sofa_type": "3-Seater", "color_name": "darkgray"}
+33	Hawaii Sofa - 3 Seater - Dark Blue	sofa_images/sofa_31.jpg	14399	10655.26	26	1		{"hex_color": "#483d8b", "rgb_color": [43, 82, 133], "sofa_type": "3-Seater", "color_name": "darkslateblue"}
+34	Napper Mini Sofa - 3 Seater (1.94m*85.09cm*85.34cm) /\n                      (76.5*33.5*33.6inch)	sofa_images/sofa_32.jpg	20299	14412.29	29	1		{"hex_color": "#000000", "rgb_color": [21, 18, 18], "sofa_type": "3-Seater", "color_name": "black"}
+35	Dreamer Sofa - Three Seater	sofa_images/sofa_33.jpg	26880	21235.2	21	1		{"hex_color": "#2f4f4f", "rgb_color": [25, 37, 54], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+36	Bahamas Sheesham Wood Sofa - Three Seater	sofa_images/sofa_34.jpg	25276	21990.12	13	1		{"hex_color": "#bc8f8f", "rgb_color": [170, 152, 135], "sofa_type": "3-Seater", "color_name": "rosybrown"}
+37	Miami Sofa - 3 Seater - Omega Green	sofa_images/sofa_35.jpg	15200	10336	32	1		{"hex_color": "#696969", "rgb_color": [106, 124, 113], "sofa_type": "3-Seater", "color_name": "dimgray"}
+51	Naxos Sofa Set (3+2) Seater	sofa_images/sofa_49.jpg	77997	50698.05	35	1		{"hex_color": "#000000", "rgb_color": [10, 11, 8], "sofa_type": "3-Seater", "color_name": "black"}
+52	Belize Sofa - Three Seater	sofa_images/sofa_50.jpg	23998	20158.32	16	1		{"hex_color": "#191970", "rgb_color": [5, 37, 77], "sofa_type": "3-Seater", "color_name": "midnightblue"}
+55	Lumara Sofa -Three Seater	sofa_images/sofa_53.jpg	25999	16899.35	35	1		{"hex_color": "#778899", "rgb_color": [139, 141, 145], "sofa_type": "3-Seater", "color_name": "lightslategray"}
+58	Dreamer Plus Sofa -Two Seater	sofa_images/sofa_56.jpg	35498	26268.52	26	1		{"hex_color": "#696969", "rgb_color": [77, 110, 84], "sofa_type": "2-Seater", "color_name": "dimgray"}
+60	Tuvalu without Motion Sofa Set (3+2) Seater	sofa_images/sofa_58.jpg	69498	45173.7	35	1		{"hex_color": "#696969", "rgb_color": [114, 104, 88], "sofa_type": "3-Seater", "color_name": "dimgray"}
+62	SnoozePro Sofa - Three Seater Omega Green	sofa_images/sofa_60.jpg	19600	14504	26	1		{"hex_color": "#696969", "rgb_color": [103, 119, 104], "sofa_type": "3-Seater", "color_name": "dimgray"}
+63	Sicily Sofa - Three Seater	sofa_images/sofa_61.jpg	16999	13769.19	19	1		{"hex_color": "#2f4f4f", "rgb_color": [77, 76, 82], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+64	Tasmania Sofa Set - (3+2) Seater	sofa_images/sofa_62.jpg	43749	33686.729999999996	23	1		{"hex_color": "#696969", "rgb_color": [125, 115, 106], "sofa_type": "3-Seater", "color_name": "dimgray"}
+65	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Left Aligned Chaise)	sofa_images/sofa_63.jpg	42999	27949.35	35	1		{"hex_color": "#696969", "rgb_color": [84, 94, 83], "sofa_type": "Sofa-Cum-Bed", "color_name": "dimgray"}
+194	Miami Sofa - 3 Seater - Ash Grey	sofa_images/sofa_192.jpg	17197	11693.96	32	1		{"hex_color": "#696969", "rgb_color": [87, 88, 83], "sofa_type": "3-Seater", "color_name": "dimgray"}
+196	Stargazer Recliner - 1 Seater - Dark Fantasy	sofa_images/sofa_194.jpg	18500	13690	26	1		{"hex_color": "#2f4f4f", "rgb_color": [80, 56, 56], "sofa_type": "1-Seater", "color_name": "darkslategray"}
+198	Stargazer Recliner - Rocking & Revolving	sofa_images/sofa_196.jpg	22500	16875	25	1		{"hex_color": "#696969", "rgb_color": [104, 84, 79], "sofa_type": "1-Seater", "color_name": "dimgray"}
+78	Havana Sofa - Three Seater Malibu Green	sofa_images/sofa_76.jpg	26199	20435.22	22	1		{"hex_color": "#2f4f4f", "rgb_color": [3, 53, 59], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+79	Naples Sofa cum Bed - Three Seater, Cobalt Blue	sofa_images/sofa_77.jpg	16170	12612.6	22	1		{"hex_color": "#000000", "rgb_color": [3, 2, 2], "sofa_type": "3-Seater", "color_name": "black"}
+85	Barcelona L Shape Sofa Set (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_83.jpg	36436	31334.96	14	1		{"hex_color": "#c0c0c0", "rgb_color": [198, 188, 174], "sofa_type": "L-Shape", "color_name": "silver"}
+86	Belize L Shape Sofa Set (3 Seater + Right Aligned Chaise)	sofa_images/sofa_84.jpg	35130	29860.5	15	1		{"hex_color": "#808080", "rgb_color": [136, 126, 117], "sofa_type": "L-Shape", "color_name": "gray"}
+95	Sicily Sofa - Three Seater	sofa_images/sofa_93.jpg	16999	13769.19	19	1		{"hex_color": "#a9a9a9", "rgb_color": [175, 166, 152], "sofa_type": "3-Seater", "color_name": "darkgray"}
+96	Tasmania Sofa Set - (3+2) Seater	sofa_images/sofa_94.jpg	43749	33686.729999999996	23	1		{"hex_color": "#191970", "rgb_color": [18, 38, 72], "sofa_type": "3-Seater", "color_name": "midnightblue"}
+97	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Right Aligned Chaise)	sofa_images/sofa_95.jpg	42999	27949.35	35	1		{"hex_color": "#2f4f4f", "rgb_color": [84, 75, 71], "sofa_type": "Sofa-Cum-Bed", "color_name": "darkslategray"}
+98	Lounger Plus Sofa set (3+1+1) Seater	sofa_images/sofa_96.jpg	89278	64280.16	28	1		{"hex_color": "#a9a9a9", "rgb_color": [186, 175, 162], "sofa_type": "3-Seater", "color_name": "darkgray"}
+99	SnoozePro Plus Sofa Set - (3+2+1) Reflection Mocha Brown	sofa_images/sofa_97.jpg	62998	44098.6	30	1		{"hex_color": "#556b2f", "rgb_color": [100, 80, 68], "sofa_type": "3-Seater", "color_name": "darkolivegreen"}
+100	Manila Sheesham Wood Sofa Set - (3+2+1)	sofa_images/sofa_98.jpg	82242	66616.02	19	1		{"hex_color": "#000000", "rgb_color": [28, 18, 10], "sofa_type": "3-Seater", "color_name": "black"}
+101	Magnus Sofa Set - (3+2)	sofa_images/sofa_99.jpg	74998	48748.7	35	1		{"hex_color": "#556b2f", "rgb_color": [113, 79, 58], "sofa_type": "3-Seater", "color_name": "darkolivegreen"}
+102	Comoros Corner L Shape Sofa (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_100.jpg	80499	52324.35	35	1		{"hex_color": "#000000", "rgb_color": [7, 6, 5], "sofa_type": "L-Shape", "color_name": "black"}
+103	Lounger Sofa - Three Seater	sofa_images/sofa_101.jpg	27585	19585.35	29	1		{"hex_color": "#000000", "rgb_color": [18, 27, 47], "sofa_type": "3-Seater", "color_name": "black"}
+104	Haverford Sofa - Single Seater	sofa_images/sofa_102.jpg	20097	12058.2	40	1		{"hex_color": "#000000", "rgb_color": [15, 18, 22], "sofa_type": "1-Seater", "color_name": "black"}
+105	Napper Mini Sofa - 3 Seater Omega Green	sofa_images/sofa_103.jpg	20299	14412.29	29	1		{"hex_color": "#808080", "rgb_color": [111, 126, 116], "sofa_type": "3-Seater", "color_name": "gray"}
+106	Dreamer Sofa Set (3+2)	sofa_images/sofa_104.jpg	48238	37625.64	22	1		{"hex_color": "#2f4f4f", "rgb_color": [25, 37, 54], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+107	Bahamas Sheesham Wood Sofa Set - (3+2)	sofa_images/sofa_105.jpg	45684	39745.08	13	1		{"hex_color": "#000000", "rgb_color": [24, 25, 29], "sofa_type": "3-Seater", "color_name": "black"}
+110	Naples Sofa - Three Seater, Omega Pearl	sofa_images/sofa_108.jpg	14998	11548.46	23	1		{"hex_color": "#a9a9a9", "rgb_color": [167, 161, 150], "sofa_type": "3-Seater", "color_name": "darkgray"}
+111	Fyras 1 Seater Solid wood Sofa	sofa_images/sofa_109.jpg	13619	8171.4	40	1		{"hex_color": "#bc8f8f", "rgb_color": [175, 147, 125], "sofa_type": "1-Seater", "color_name": "rosybrown"}
+112	Solomon Sofa Set (3+2+1) Seater	sofa_images/sofa_110.jpg	75497	49073.05	35	1		{"hex_color": "#000000", "rgb_color": [13, 12, 7], "sofa_type": "3-Seater", "color_name": "black"}
+113	Napper Sofa Set - Three Seater	sofa_images/sofa_111.jpg	25000	21000	16	1		{"hex_color": "#808080", "rgb_color": [112, 128, 118], "sofa_type": "3-Seater", "color_name": "gray"}
+115	Barcelona Sofa - Three Seater	sofa_images/sofa_113.jpg	27300	24024	12	1		{"hex_color": "#808080", "rgb_color": [125, 138, 130], "sofa_type": "3-Seater", "color_name": "gray"}
+117	Skiver L Shape 6 Seater Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_115.jpg	26000	17680	32	1		{"hex_color": "#2f4f4f", "rgb_color": [52, 50, 65], "sofa_type": "L-Shape", "color_name": "darkslategray"}
+118	Azores Sofa Set (3+2) Seater	sofa_images/sofa_116.jpg	61998	40298.7	35	1		{"hex_color": "#2f4f4f", "rgb_color": [72, 60, 57], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+119	Lumara Sofa Set - (3+1+1) Seater	sofa_images/sofa_117.jpg	55996	36397.4	35	1		{"hex_color": "#808080", "rgb_color": [133, 120, 111], "sofa_type": "3-Seater", "color_name": "gray"}
+120	Tahiti Sofa seat(3+2) Seater	sofa_images/sofa_118.jpg	69998	45498.7	35	1		{"hex_color": "#c0c0c0", "rgb_color": [210, 200, 188], "sofa_type": "3-Seater", "color_name": "silver"}
+121	Belize Plus Sofa Set - (3+2)	sofa_images/sofa_119.jpg	55676	41757	25	1		{"hex_color": "#808080", "rgb_color": [154, 142, 127], "sofa_type": "3-Seater", "color_name": "gray"}
+122	Dreamer Plus Sofa Set - (3+2)	sofa_images/sofa_120.jpg	61973	45860.020000000004	26	1		{"hex_color": "#708090", "rgb_color": [87, 121, 137], "sofa_type": "3-Seater", "color_name": "slategray"}
+123	Napper Plus Sofa Set - (3+2) Reflection Rose Brown	sofa_images/sofa_121.jpg	59692	45962.84	23	1		{"hex_color": "#808080", "rgb_color": [163, 123, 125], "sofa_type": "3-Seater", "color_name": "gray"}
+124	SnoozePro Sofa Set (3+2)	sofa_images/sofa_122.jpg	34397	25109.809999999998	27	1		{"hex_color": "#696969", "rgb_color": [131, 108, 88], "sofa_type": "3-Seater", "color_name": "dimgray"}
+125	Sicily Sofa - Three Seater	sofa_images/sofa_123.jpg	17839	14449.59	19	1		{"hex_color": "#696969", "rgb_color": [83, 83, 94], "sofa_type": "3-Seater", "color_name": "dimgray"}
+127	Napper Convertible L Shape Sofa Cum Bed with Storage (2\n                      Seater + Right Aligned Chaise)	sofa_images/sofa_125.jpg	42999	27949.35	35	1		{"hex_color": "#696969", "rgb_color": [80, 82, 95], "sofa_type": "Sofa-Cum-Bed", "color_name": "dimgray"}
+130	Manila Sheesham Wood Sofa Set - (3+2)	sofa_images/sofa_128.jpg	63145	51147.45	19	1		{"hex_color": "#556b2f", "rgb_color": [81, 68, 56], "sofa_type": "3-Seater", "color_name": "darkolivegreen"}
+131	Magnus Sofa Set - (3+2)	sofa_images/sofa_129.jpg	74998	48748.7	35	1		{"hex_color": "#bc8f8f", "rgb_color": [174, 152, 125], "sofa_type": "3-Seater", "color_name": "rosybrown"}
+134	Napper Mini Sofa - 3 Seater (1.94m*85.09cm*85.34cm) /\n                      (76.5*33.5*33.6inch)	sofa_images/sofa_132.jpg	20299	14412.29	29	1		{"hex_color": "#808080", "rgb_color": [138, 122, 112], "sofa_type": "3-Seater", "color_name": "gray"}
+139	Naples Sofa cum Bed - Three Seater, Omega Ash Grey	sofa_images/sofa_137.jpg	14998	11548.46	23	1		{"hex_color": "#2f4f4f", "rgb_color": [63, 63, 63], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+140	Lounger Plus Sofa -Three Seater	sofa_images/sofa_138.jpg	40310	29023.2	28	1		{"hex_color": "#2f4f4f", "rgb_color": [43, 56, 67], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+141	Napper Storage L Shape Sofa Set (3 Seater + Right Aligned\n                      Chaise)	sofa_images/sofa_139.jpg	46173	33706.29	27	1		{"hex_color": "#000000", "rgb_color": [5, 4, 4], "sofa_type": "L-Shape", "color_name": "black"}
+143	Napper Storage L Shape Sofa Set (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_141.jpg	46173	33706.29	27	1		{"hex_color": "#000000", "rgb_color": [7, 7, 7], "sofa_type": "L-Shape", "color_name": "black"}
+144	Flipper Sofa cum Bed - Three Seater, Omega Ash Grey	sofa_images/sofa_142.jpg	12350	8521.5	31	1		{"hex_color": "#2f4f4f", "rgb_color": [57, 53, 49], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+145	Tasmania Sofa - Three Seater	sofa_images/sofa_143.jpg	25001	19250.77	23	1		{"hex_color": "#8b4513", "rgb_color": [129, 58, 14], "sofa_type": "3-Seater", "color_name": "saddlebrown"}
+146	Napper Sofa - Single Seater	sofa_images/sofa_144.jpg	14526	12056.58	17	1		{"hex_color": "#000000", "rgb_color": [22, 19, 18], "sofa_type": "3-Seater", "color_name": "black"}
+148	Napper L Shape Sofa Set (3 Seater + Left Aligned Chaise)	sofa_images/sofa_146.jpg	41665	34581.95	17	1		{"hex_color": "#708090", "rgb_color": [108, 117, 128], "sofa_type": "L-Shape", "color_name": "slategray"}
+149	Napper L Shape Sofa Set (3 Seater + Left Aligned Chaise\n                      with Ottoman)	sofa_images/sofa_147.jpg	46733	37853.729999999996	19	1		{"hex_color": "#2f4f4f", "rgb_color": [70, 74, 88], "sofa_type": "L-Shape", "color_name": "darkslategray"}
+150	Napper Sofa - Three Seater	sofa_images/sofa_148.jpg	25000	21000	16	1		{"hex_color": "#808080", "rgb_color": [138, 122, 112], "sofa_type": "3-Seater", "color_name": "gray"}
+152	SnoozePro Sofa - Three Seater	sofa_images/sofa_150.jpg	13799	10073.27	27	1		{"hex_color": "#2f4f4f", "rgb_color": [76, 77, 86], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+154	SnoozePro L Shape Sofa Set (3 Seater + Left Aligned\n                      Chaise)	sofa_images/sofa_152.jpg	33800	25012	26	1		{"hex_color": "#2f4f4f", "rgb_color": [47, 38, 40], "sofa_type": "L-Shape", "color_name": "darkslategray"}
+157	SnoozePro Sofa - Three Seater	sofa_images/sofa_155.jpg	15199	11095.27	27	1		{"hex_color": "#556b2f", "rgb_color": [83, 75, 66], "sofa_type": "3-Seater", "color_name": "darkolivegreen"}
+158	SnoozePro Sofa - Three Seater	sofa_images/sofa_156.jpg	19600	14504	26	1		{"hex_color": "#556b2f", "rgb_color": [83, 75, 66], "sofa_type": "3-Seater", "color_name": "darkolivegreen"}
+159	Lounger Sofa - Three Seater	sofa_images/sofa_157.jpg	18081	12656.7	30	1		{"hex_color": "#696969", "rgb_color": [106, 88, 79], "sofa_type": "3-Seater", "color_name": "dimgray"}
+160	Lounger Sofa - Three Seater	sofa_images/sofa_158.jpg	24315	16777.35	31	1		{"hex_color": "#696969", "rgb_color": [106, 88, 79], "sofa_type": "3-Seater", "color_name": "dimgray"}
+161	Lounger Sofa - Three Seater	sofa_images/sofa_159.jpg	30646	21758.66	29	1		{"hex_color": "#696969", "rgb_color": [106, 88, 79], "sofa_type": "3-Seater", "color_name": "dimgray"}
+162	SnoozePro Sofa - Three Seater	sofa_images/sofa_160.jpg	21399	15835.26	26	1		{"hex_color": "#2f4f4f", "rgb_color": [24, 36, 58], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+163	Napper Sofa - Three Seater	sofa_images/sofa_161.jpg	14189	11776.869999999999	17	1		{"hex_color": "#2f4f4f", "rgb_color": [37, 37, 34], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+164	Napper Sofa - Three Seater	sofa_images/sofa_162.jpg	21057	17477.31	17	1		{"hex_color": "#000000", "rgb_color": [20, 20, 19], "sofa_type": "3-Seater", "color_name": "black"}
+165	Napper Sofa - Three Seater	sofa_images/sofa_163.jpg	27814	23363.760000000002	16	1		{"hex_color": "#000000", "rgb_color": [11, 17, 33], "sofa_type": "3-Seater", "color_name": "black"}
+166	Napper Sofa - Three Seater	sofa_images/sofa_164.jpg	27814	23363.760000000002	16	1		{"hex_color": "#2f4f4f", "rgb_color": [37, 37, 34], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+168	SnoozePro Ottoman	sofa_images/sofa_166.jpg	6599	4751.28	28	1		{"hex_color": "#2f4f4f", "rgb_color": [35, 41, 71], "sofa_type": "1-Seater", "color_name": "darkslategray"}
+169	Napper Ottoman	sofa_images/sofa_167.jpg	7094	5746.14	19	1		{"hex_color": "#191970", "rgb_color": [25, 29, 51], "sofa_type": "1-Seater", "color_name": "midnightblue"}
+170	Napper Ottoman	sofa_images/sofa_168.jpg	7094	5746.14	19	1		{"hex_color": "#696969", "rgb_color": [84, 85, 82], "sofa_type": "1-Seater", "color_name": "dimgray"}
+171	Napper L Shape Sofa Set (3 Seater + Left Aligned Chaise)	sofa_images/sofa_169.jpg	46279	38874.36	16	1		{"hex_color": "#2f4f4f", "rgb_color": [43, 42, 42], "sofa_type": "L-Shape", "color_name": "darkslategray"}
+172	Lounger Sofa - Three Seater	sofa_images/sofa_170.jpg	21758	15230.6	30	1		{"hex_color": "#000000", "rgb_color": [18, 27, 47], "sofa_type": "3-Seater", "color_name": "black"}
+173	Lounger Sofa 3 Seater	sofa_images/sofa_171.jpg	64874	45411.8	30	1		{"hex_color": "#2f4f4f", "rgb_color": [43, 43, 43], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+174	Lounger Sofa - Three Seater	sofa_images/sofa_172.jpg	27585	19585.35	29	1		{"hex_color": "#2f4f4f", "rgb_color": [14, 49, 45], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+175	Lounger Sofa - Three Seater	sofa_images/sofa_173.jpg	22577	15578.130000000001	31	1		{"hex_color": "#2f4f4f", "rgb_color": [62, 63, 67], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+176	Lounger Sofa - Three Seater	sofa_images/sofa_174.jpg	28499	20234.29	29	1		{"hex_color": "#2f4f4f", "rgb_color": [62, 63, 67], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+177	Lounger Sofa 3 Seater	sofa_images/sofa_175.jpg	50567	34891.229999999996	31	1		{"hex_color": "#2f4f4f", "rgb_color": [62, 63, 67], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+178	Lounger Sofa - Three Seater	sofa_images/sofa_176.jpg	22577	15578.130000000001	31	1		{"hex_color": "#696969", "rgb_color": [124, 111, 98], "sofa_type": "3-Seater", "color_name": "dimgray"}
+179	Lounger Sofa 3 Seater	sofa_images/sofa_177.jpg	50567	34891.229999999996	31	1		{"hex_color": "#696969", "rgb_color": [124, 111, 98], "sofa_type": "3-Seater", "color_name": "dimgray"}
+189	Miami Sofa - 2 Seater - Omega Blue	sofa_images/sofa_187.jpg	9999	6899.3099999999995	31	1		{"hex_color": "#2f4f4f", "rgb_color": [55, 61, 70], "sofa_type": "2-Seater", "color_name": "darkslategray"}
+190	Miami Sofa - 3+2+1 Seater - Omega Blue	sofa_images/sofa_188.jpg	37897	25769.96	32	1		{"hex_color": "#2f4f4f", "rgb_color": [55, 61, 70], "sofa_type": "3-Seater", "color_name": "darkslategray"}
+191	Miami Sofa - 3 Seater - Omega Grey	sofa_images/sofa_189.jpg	15200	10336	32	1		{"hex_color": "#696969", "rgb_color": [97, 97, 93], "sofa_type": "3-Seater", "color_name": "dimgray"}
 \.
 
 
